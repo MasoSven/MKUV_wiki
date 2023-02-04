@@ -1,0 +1,50 @@
+======What's new?======
+Jump to navigation
+Jump to search
+
+[chatnet] Retard says, So what's new?
+
+Glad you asked, retard. Let's give you a rundown. 
+===== New Content =====
+
+  * Over 100 new weapons.
+  * Over 75 new pieces of armor and bits of clothing.
+  * Over 50 new crafting recipes to discover.
+  * Several new areas and upgrades to old areas.
+  * Several new jobs.
+  * Several new quests and journals to discover.
+  * Brand spanking new raid areas to test the mettle of you and your corp.
+  * Multiple newly implemented mutations including Robot, an extension to Ripper, that fuck weapon you always wanted, and new focus mutations.
+  * Several new trophies to flex your ingame achievements.
+  * Several new clothing items
+===== Changes To Old Content =====
+  * <del>A persistent XP system. (See: help reroll)</del> You only keep 25% of your total xp over rerolls, same as old Hell.
+  * <color #22b14c>Chance to reduce armor durability on repair has been reduced significantly.</color> Repair your armor without fear.
+  * <color #22b14c>Implants aren't damaged on death</color> <color #ed1c24>(though damaged implants will cause increased stress)</color>
+  * <color #22b14c>Focus has had a complete overhaul and utilizes a psi point system.</color>
+  * <color #22b14c>A new poise system to replace the traditional guaranteed stun.</color>
+  * <color #22b14c>Parry & dodge interaction has been fixed.</color> A failure to parry is no longer an automatic hit.
+  * <color #ed1c24>Dodging has been adjusted to be a lot less overpowered</color>
+  * <color #22b14c>Buffed minimum damage for various two-handed melee weapons</color>
+  * <color #22b14c>Early game weapons rebalanced to be little less shit.</color>
+  * <color #22b14c>Various armors rebalanced to be a lot less shit.</color>
+  * <color #22b14c>Buffed some weapon classes to be more viable</color>
+     * Several new flails
+     * Several new throwing weapons
+     * Fishing weapons have increased damage scaling
+     * New bow weapons covered by Quickdraw
+     * New focus weapons
+  * <color #22b14c>Most of the old weapons have been rebalanced.</color> 
+     * Increased skill and brawn scaling for blades
+     * Reduced scaling for some whips
+     * Pistols+Rifles skills merged into Firearms and no longer have scaling.
+  * <color #22b14c>Some weapons have new flavor text for drawing, stowing, and power attacks</color>
+  * <color #22b14c>Buffed burn and EMP damage.</color> <color #ed1c24>Laser damage is out.</color>
+  * The IP grind is out. I too enjoy standing in one spot for six hours until I can play the game.
+  * <color #ed1c24>Feinting is out.</color> Sorry, your weapons are good and actually obtainable now so suck your mum.
+  * <color #ed1c24>Vampire and Empath are out.</color> Sorry, I like it when you play the game.
+  * <color #22b14c>Buffs to every racial mutation and a few others.</color>
+  * Money is much more important, most things are purchaseable, albeit significantly more expensive.
+  * <color #ed1c24>Aiming AT players removed in light of the rebalancing.</color> Aiming to doors still in and encouraged.
+  * <color #22b14c>Completely new stress and implant systems.</color>
+  * <color #22b14c>Headbutt revamped to be a little less homosexual to use.</color>

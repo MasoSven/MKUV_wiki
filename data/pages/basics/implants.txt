@@ -1,0 +1,56 @@
+======Implants======
+Cybernetic implants can be installed into your body, with various effects:
+
+  * Stat implants will give you a specific boost to a stat at the cost of multiplying incoming stress by a certain amount.
+  * Utility implants typically have functions other than boosting your stats and do not affect stress gain as much.
+  * Explosive implants (cortex bombs) are put into you by a corp, or jail to kill you whenever they so desire.
+
+Dr. Nick in Injection Junction (IJ) in northeastern Freedom City can install them into you for cheap as well as Meatwad in Weezer Sewers. Simply give the implant to your chosen doctor, respond with a "yes" or a nod, and he'll install it at a price that varies according to the price of the implant. He'll also slightly hurt you and cause bleeding. If you change your mind, but have already given him your implant, don't panic. They will give it back to you before you leave the clinic.
+
+Players can install implants for you on the top floor of the hospital in Slagtown, using the same device that removes them. Note that removing implants takes high Medic skill; around 20 at minimum.
+
+Implants can be bought at the Enhancement Clinic in Corpclave, The Neo You in Maas Neotek, and Kowloon Wirehead in Botany Bay. You can wear as many as you want, but repeats are not allowed, and wearing too many will give you regular ticks of stress. Note that your [[cool]] total affects how many implants you can hold before getting stress ticks.
+
+Implants have a condition system, similar to that of armor. They won't be damaged if your corpse vanishes, but having your implants carved out of you by a poor scavenger tends to damage them. Damaged implants will cause multiplied stress ticks compared to pristine implants. Any implant with 6/10 condition or less also have the possibility of causing random minor injuries, shock, stress or even mental illnesses. All of them will be destroyed outside of the condition system if the unfortunate bearer dies an explosive death.
+
+Implants do not act like conventional items in that they are not protected by cocoons. They will be hackable from your corpse should you die, unless you have the Silicone Skin mutation.
+
+Players with decent Appraise skill can determine the exact condition of implants.
+|Condition|What it really means|Description|
+|Nothing|10/10|Perfectly usable with no side effects.|
+|dinged/bit damaged|9-7/10|Usable, but with multiplied stress ticks.|
+|somewhat/seriously/etc damaged|6/10 and less|Occasionally stuns, stresses and damages the user. Rarely causes mentals.|
+=====Stat Implants=====
+| Name                   | Stat buff                            | Stat debuff                          | Location     | Price    |
+| Hotwire implant        | <color #22b14c>+1 reflex</color>     | none                                 | Corpclave    | $9,000   |
+| Coprocessor            | <color #22b14c>+1 brain</color>      | none                                 | Corpclave    | $9,000   |
+| Leukocyte implant      | <color #22b14c>+1 endurance</color>  | none                                 | Corpclave    | $9,000   |
+| Muscle juicer implant  | <color #22b14c>+1 brawn</color>      | none                                 | Corpclave    | $9,000   |
+| Ego modulator          | <color #22b14c>+1 cool</color>       | none                                 | Corpclave    | $9,000   |
+| Syntheye implant       | <color #22b14c>+1 senses</color>     | none                                 | Corpclave    | $9,000   |
+| Hotrail                | <color #22b14c>+3 reflex</color>     | <color #ed1c24>-1 endurance</color>  | Botany       | $39,000  |
+| Multiprocessor         | <color #22b14c>+3 brain</color>      | <color #ed1c24>-1 cool</color>       | Botany       | $39,000  |
+| Antibody agonist       | <color #22b14c>+3 endurance</color>  | <color #ed1c24>-1 senses</color>     | Maas Neotek  | $42,000  |
+| Muscle controller      | <color #22b14c>+3 brawn</color>      | <color #ed1c24>-1 brains</color>     | Maas Neotek  | $42,000  |
+| Ego synthesizer        | <color #22b14c>+3 cool</color>       | <color #ed1c24>-1 reflex</color>     | Maas Neotek  | $42,000  |
+| LIDAR                  | <color #22b14c>+3 senses</color>     | <color #ed1c24>-1 brawn</color>      | Botany       | $39,000  |
+=====Utility Implants=====
+| Name                            | Notes                                                                                                                                                                                                                                                                                                                                      | Location     | Price    |
+| Jarvik 24 Heart Implant         | <color #22b14c>+1 endurance</color>\\ <color #ed1c24>-1 cool</color>\\ <color #ed1c24>Reduces chest armor thickness limit by 3.</color> \\ Prevents heart attacks from old age and drug use (but not ODs). This counts as a stat implant and will increase stress gains like one. Bought from Pegleg Pete's random stock store sometimes.  | Botany Bay   | $22,500  |
+| Cyberdine Roboplegic Wrongcock  | <color #22b14c>All around 1-5 soaks to your groin</color>\\ <color #ed1c24>Reduces groin armor thickness limit by 3</color>\\ A robotic cock replacement for your pathetically tiny member. Guaranteed to please your man 100%.                                                                                                            | Maas Neotek  | $14,000  |
+| Psi Ports                       | Stops Psi Amps from hurting you when you wield them                                                                                                                                                                                                                                                                                        | Corpclave    | $4,500   |
+| Alkatek DNI                     | Allows you to jack in to cyberdecks, giving you access to the internet/local nets. Also used for hacking computers, programming ARC droids and the cams in Gangland.                                                                                                                                                                       | Corpclave    | $1,800   |
+| Norplant                        | Used to prevent pregnancy in female characters. Relatively worthless.                                                                                                                                                                                                                                                                      | Corpclave    | $1,800   |
+| Libido suppressor               | Stops you from getting horny whilst it's in. Good for people who don't want the brains/cool debuff.                                                                                                                                                                                                                                        | Corpclave    | $1,800   |
+| Corporate discipline implant    | Allows a corp CEO with a discipline console to induce short-term shock or death. Automatically implanted if you use a designated corp clonetank. It also soaks some stress when used with a regular implant.                                                                                                                               | Corpclave    | $9       |
+| PsychoSight implant             | Allows you to see Psi shimmers and ghosts, similar to Clairvoyance. Bought from CSICOP Branch Office in Slagtown.                                                                                                                                                                                                                          | Slagtown     | $1,125   |
+| Rhodopsin augmentor implant     | Allows you to see in the dark. Similar to night vision goggles, except without the green tint.                                                                                                                                                                                                                                             | Maas Neotek  | $3,500   |
+| Panopticon cortex bomb          | Will explode if phase/blink/flight is used while it is installed, or if the wearer is outside of Panopticon Prison for too long.                                                                                                                                                                                                           |              |          |
+| Holocam implant                 | Not available to the public, but will broadcast anything you see/do in a fashion similar to a camcorder to the channel LIVETV.                                                                                                                                                                                                             |              |          |
+=====Robot Implants=====
+| Name                       | Notes                                                                                                            | Location     | Price    |
+| Unified Systems Optimizer  | A robot specific stat boost that applies <color #22b14c>+3 to all stats.</color>                                 | Corpclave    | $15,600  |
+| OS Upgrade                 | <color #22b14c>Increases a robot's max HP by 30</color>. This will always be destroyed on death.                 | Corpclave    | $60,000  |
+| SEX_ROBOT                  | <color #22b14c>Allows robots to receive horny buffs</color> and all the functions that go with that...           | Corpclave    | $28,000  |
+| UHF Transciever            | Similar to a plane's ground scan function. Detects all players and NPCs that are outdoors in your current area.  | Corpclave    | $29,250  |
+| Laser Eye                  | A laser eye robots can use to light cigarettes and cook meats.                                                   | Maas Neotek  | $5,600   |

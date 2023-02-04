@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.ipiss.rocks/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.ipiss.rocks/dokuwiki/feed.php">
+        <title>MKULTRAVIOLENCE wiki</title>
+        <description></description>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
+       <dc:date>2023-01-19T03:49:56+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1662225322&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:syntax&amp;rev=1662225322&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:unpoz_dokuwiki&amp;rev=1672793930&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1662225322&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico">
+        <title>MKULTRAVIOLENCE</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1662225322&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-09-03T17:15:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>wiki:dokuwiki</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1662225322&amp;do=diff</link>
+        <description>DokuWiki
+
+wiki:dokuwiki DokuWiki is a simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:syntax&amp;rev=1662225322&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-09-03T17:15:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>wiki:syntax</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:syntax&amp;rev=1662225322&amp;do=diff</link>
+        <description>Formatting Syntax
+
+DokuWiki supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:unpoz_dokuwiki&amp;rev=1672793930&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-04T00:58:50+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>wiki:unpoz_dokuwiki</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:unpoz_dokuwiki&amp;rev=1672793930&amp;do=diff</link>
+        <description>How to handle Dokuwikis weird kinks A.K.A: I can't believe it's not Mediawiki!!!
+
+So you've decided to contribute to this wiki but are frustrated about how it's not mediawiki. Here is a rundown of things to know to get you around this crap, hopefully you'll appreciate it's design choices.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1662225322&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-09-03T17:15:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>wiki:welcome</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1662225322&amp;do=diff</link>
+        <description>Welcome to your new DokuWiki
+
+Congratulations, your wiki is now up and running. Here are a few more tips to get you started.
+
+Enjoy your work with DokuWiki,
+
+-- the developers
+
+Create your first pages
+
+Your wiki needs to have a start page. As long as it doesn't exist, this link will be red:</description>
+    </item>
+</rdf:RDF>

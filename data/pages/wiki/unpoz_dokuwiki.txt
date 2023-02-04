@@ -1,0 +1,44 @@
+======How to handle Dokuwikis weird kinks A.K.A: I can't believe it's not Mediawiki!!!======
+So you've decided to contribute to this wiki but are frustrated about how it's not mediawiki. Here is a rundown of things to know to get you around this crap, hopefully you'll appreciate it's design choices.
+
+=====Best practices=====
+Errors and weirdness can't be completely avoided, please read this page carefully as it is a compilation on how to avoid the common frustrations our Senior Devs encountered, by this is the means to avoid Soydevs lashing out. Please remember, don't run to mommy as soon as somethings don't go your way. Read up documentation, vet your steps of doing something, take your hands the keyboard for a while and if all of theses steps fail THEN YOU CAN ASK FOR HELP. No one likes to spoonfed you. 
+Fallback to these rules, tips and tricks for best effectiveness.
+====Things to keep in mind====
+[[https://www.dokuwiki.org/locking|Lockout]]
+
+
+ - After 60 minutes on not hitting submit or previeW your shit is probably gone
+
+ - Save your edits before hitting submit or preview, this keeps version control clean from repeated saves and your work aswell.
+====Tools====
+[[https://www.vim.org/|Vim]]
+
+ - Rock solid Text editor
+
+ - Powerful regex
+
+ - Sponsored by [[https://www.youtube.com/results?search_query=vim+diesel|Vim Diesel]]
+
+ - a lot of table editing is done here for it's ease of editing
+
+=====Plugins=====
+Dokuwiki has a weird fetish with plugins, a lot of things are not included in the Core like the theme, easier tables, wraping, you name it.
+here's a list of all installed plugins you can look up to get to know them.
+[[https://www.dokuwiki.org/plugin:wrap|Wraping]]
+
+[[https://www.dokuwiki.org/plugin:sortablejs|Sortable Tables]]
+
+[[https://www.dokuwiki.org/plugin:indexmenu|Index Menu]]
+
+[[https://www.dokuwiki.org/plugin:edittable|Editable Tables]]
+
+[[https://www.dokuwiki.org/plugin:divalign2|Text Alignment]]
+
+  * <color #0000ff>Doesn't work with tables</color>
+
+[[https://www.dokuwiki.org/plugin:csv|Importable CSVs]]
+
+[[https://www.dokuwiki.org/plugin:color|Text Colours]]
+=====Tables colloquially refereed to as garbage=====
+Dokuwiki has a weird relationship with tables. Probably the devs were so soyed 

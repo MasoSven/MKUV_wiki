@@ -1,0 +1,160 @@
+======Chat Redirector======
+
+hello I'm Jarvak and this is my youtube totorial for making a chat redirector in mudlet for mudlet only. It will look good, like this but with different fonts and probably not with shitty linux font rendering
+{{tools:untitled.png?500}}
+
+step one download [[https://github.com/demonnic/EMCO/releases|this]](not a virus)
+
+step two install it into mudlet via the package manager, located in the main toolbar.
+
+step three go to scripts, also located in the main toolbar, then open the EMCOChat folder, it's EMCO subfolder, and click on "Code", pictured here.
+{{tools:emcocode.png}}
+
+step four select the entire block of code, and replace it with this 
+<hidden huge code block, click to open>
+<code>
+local defaultConfig = {activeColor = "black", inactiveColor = "black", activeBorder = "black", activeText = "white", inactiveText = "grey", background = "black", windowBorder = "black"}
+local emco = require("EMCOChat.emco")
+demonnic = demonnic or {}
+demonnic.helpers = demonnic.helpers or {}
+demonnic.config = demonnic.config or defaultConfig
+local baseStyle = Geyser.StyleSheet:new(f [[
+  border-width: 2px; 
+  border-style: solid; 
+]])
+local activeStyle = Geyser.StyleSheet:new(f [[
+  border-color: {demonnic.config.activeBorder};
+  background-color: {demonnic.config.activeColor};
+]], baseStyle)
+local inactiveStyle = Geyser.StyleSheet:new(f [[
+  border-color: {demonnic.config.inactiveColor};
+  background-color: {demonnic.config.inactiveColor};
+]], baseStyle)
+local adjLabelStyle = Geyser.StyleSheet:new(f[[
+  background-color: rgba(0,0,0,100%);
+  border: 4px double;
+  border-color: {demonnic.config.windowBorder};
+  border-radius: 4px;]])
+
+  local default_constraints = {name = "EMCOPrebuiltChatContainer", x = "-25%", y = "-60%", width = "25%", height = "60%"}
+
+
+local chatEMCO = demonnic.chat
+local EMCOfilename = getMudletHomeDir() .. "/EMCO/EMCOPrebuiltChat.lua"
+local confFile = getMudletHomeDir() .. "/EMCO/EMCOPrebuiltExtraOptions.lua"
+
+function demonnic.helpers.echo(msg)
+  msg = msg or ""
+  cecho(f "<green>EMCO Chat: <reset>{msg}\n")
+end
+
+function demonnic.helpers.resetToDefaults()
+  default_constraints.adjLabelstyle = adjLabelStyle:getCSS()
+  demonnic.container = demonnic.container or Adjustable.Container:new(default_constraints)
+  demonnic.config = defaultConfig
+  demonnic.chat = emco:new({
+    name = "EMCOPrebuiltChat",
+    x = 0,
+    y = 0,
+    height = "100%",
+    width = "100%",
+    consoles = {"All", "Chats", "Corp", "Pages"},
+    allTab = true,
+    allTabName = "All",
+    blankLine = false,
+    blink = true,
+    bufferSize = 1000000,
+    deleteLines = 100000,
+    timestamp = false,
+    fontSize = 12,
+    font = "Ubuntu Mono",
+    consoleColor = demonnic.config.background,
+    activeTabCSS = activeStyle:getCSS(),
+    inactiveTabCSS = inactiveStyle:getCSS(),
+    activeTabFGColor = demonnic.config.activeText,
+    inactiveTabFGColor = demonnic.config.inactiveText,
+    gap = 3,
+    commandLine = true,
+  }, demonnic.container)
+  chatEMCO = demonnic.chat
+  demonnic.helpers.retheme()
+end
+
+function demonnic.helpers.retheme()
+  activeStyle:set("background-color", demonnic.config.activeColor)
+  activeStyle:set("border-color", demonnic.config.activeBorder)
+  inactiveStyle:set("background-color", demonnic.config.inactiveColor)
+  inactiveStyle:set("border-color", demonnic.config.inactiveColor)
+  adjLabelStyle:set("border-color", demonnic.config.windowBorder)
+  local als = adjLabelStyle:getCSS()
+  demonnic.container.adjLabelstyle = als
+  demonnic.container.adjLabel:setStyleSheet(als)
+  chatEMCO.activeTabCSS = activeStyle:getCSS()
+  chatEMCO.inactiveTabCSS = inactiveStyle:getCSS()
+  chatEMCO:setActiveTabFGColor(demonnic.config.activeText)
+  chatEMCO:setInactiveTabFGColor(demonnic.config.inactiveText)
+  chatEMCO:setConsoleColor(demonnic.config.background)
+  chatEMCO:switchTab(chatEMCO.currentTab)
+end
+
+function demonnic.helpers.setConfig(cfg, val)
+  local validOptions = table.keys(demonnic.config)
+  if not table.contains(validOptions, cfg) then
+    return nil, f"invalid option: valid options are {table.concat(validOptions, ', ')}"
+  end
+  demonnic.config[cfg] = val
+  demonnic.helpers.retheme()
+  return true
+end
+
+function demonnic.helpers.save()
+  chatEMCO:save()
+  table.save(confFile, demonnic.config)
+  demonnic.container:save()
+end
+
+function demonnic.helpers.load()
+  if io.exists(confFile) then
+    local conf = {}
+    table.load(confFile, conf)
+    demonnic.config = table.update(demonnic.config, conf)
+  end
+  if io.exists(EMCOfilename) then
+    chatEMCO:hide()
+    chatEMCO:load()
+    chatEMCO:show()
+  end
+  demonnic.container:load()
+  demonnic.helpers.retheme()
+end
+
+local function startup()
+  demonnic.helpers.resetToDefaults()
+  demonnic.helpers.load()
+end
+
+registerNamedEventHandler("demonnicEMCO", "EMCOprebuilt startup", "sysLoadEvent", startup)
+</code>
+</hidden>
+
+step five go to triggers, again on the main toolbar, click on "add item" 3 times. Set them up as pictured, replacing the corp name with YOUR erp friendgroup!
+
+{{tools:pages.png}}
+
+{{tools:corpnet.png}}
+
+{{tools:chats.png}}
+
+steo six in the big white box that says "-- add your Lua code here", paste the following:
+
+<code>
+selectCurrentLine()
+demonnic.chat:enableGag()
+demonnic.chat:append("Pages")
+deselect()
+resetFormat()
+</code>
+
+Note that it specifies "Pages", which is a tab that was created by the massive block of code above. "All", "Chats", and "Corp" are also created there. "All" is where everything goes by default, but for the "corpnet" and "chats" triggers, you have to replace "Pages" with "Chats" and "Corp" for those specific tabs.
+
+step seven you're done! Feel free to poke around in the code, add whatever nets you'd like, and when you're done, restart Mudlet and you should have a new window you can move around and resize. Note that if you double click its bar, it will fill the entire screen vertically, and since I'm retarded I don't know how to undo that! Be careful.

@@ -1,0 +1,93 @@
+======Skills======
+Skills (including [[basics:stats|stats]]) are what determines what your character is capable of doing alone.
+
+If you type ''score'' (or ''sc'' as a shortcut) you'll bring up your character's score sheet which includes your stats and skills, among other things. Typically skills with very low totals do not show up in your score sheet.
+
+''ss'' will show the first half of this alone: just your stats, current implants and mutations, and total and spendable XP and IP.
+
+''sk'' will show the second half alone: just your skills. If you are interested in one particular skill only, you can also type ''sk <skill>'' or ''sc <skill>'' to check your total in that particular skill.
+
+For example: ''sk fuck'' would be presented as thus:
+<code>
+Skill      Raw    +   +   Total  Depends  Improve
+fuck        6.50  +2  +6   [13]  End,Sen   1120xp  A pretty good fuck.
+</code>
+  * The first number (6.50) is your raw skill level; this reflects how much of the skill your character has learned, either through jobs or learning.
+     * Skill raws start at 0.00 and generally max out at 15.00 via learning.
+  * The next two categories (+2 and +6) are modifiers; the +2 column shows temporary bonuses or penalties from buffs or debuffs, while the +6 column shows permanent bonuses or penalties from mutations.
+  * The number in square brackets is your total skill, which is the practical skill level used for determining stuff in-game, calculated using your stats, skill raw, and modifiers.
+  * The Depends column shows the stats which govern the skill.
+  * The Improve column shows how much XP it will cost to learn the next raw level of the skill from a teacher.
+  * The final column is flavor text. If your skill is very high, this will tell you your place in the world rankings with that skill, from fifth best in the world to world champ.
+There is a pref to control your skills readout: ''@prefs shortskills is 1'' will prevent ''sc'' or ''sk'' from showing very low skill totals, which helps keep your screen from being clogged with very low skills.
+
+All skills are based on stats to the six base stats to some extent: Brains, Brawn, Reflexes, Endurance, Senses and Cool, so higher stats goes hand-in-hand with higher skills based on those stats. Swim, for instance, is based on Endurance, so any character with great End will also have good Swim.
+
+Skills can also be influenced by buffs, debuffs, Mutations, and other modifiers. Some skills lean more heavily on stats, while others can be propped up by modifiers. For example, the focus skill has many buffing options through drugs and mutations, so it's reasonable for a character with relatively unimpressive endurance and senses to reach 30 focus, even though those are the two stats that focus is based on.
+
+There's no way to directly check your skill modifiers, however, you //can// check your [[basics:stats|stat]] modifiers with the ''@buffs'' command.
+=====Raising Skills=====
+All skills are based your skill raw plus the average of whichever [[basics:stats|stats]] the skill depends on, so higher stats goes hand-in-hand with higher skills based on those stats. Blades, for instance, is based on Reflexes and Cool, so a character with 4 raw blades, modified by 10 Cool and 12 Reflexes (averages to +11) will have 15 total blades.
+
+Skills can also be directly influenced by buffs, debuffs, Mutations, and other modifiers. Some skills lean more heavily on stats, while others can be propped up by modifiers. For example, the focus skill has many buffing options through drugs and mutations, so it's reasonable for a character with relatively unimpressive endurance and senses to reach 30 focus, even though those are the two stats that focus is based on.
+
+Skills at 0 raw will have a hidden penalty and will cost more xp to learn than the next couple of raws. Try to learn at least 1 raw in skills you'll be using frequently.
+
+All skills must be learned from a professional NPC (for a price) or a skilled player who is willing to teach. Skill IPs gained from doing jobs can only take a character so far; to advance into real mastery of a skill, spending XP on learning skill raw is a mandatory investment. XP can't be spent on anything except for skill raw, so there's no point in hoarding it unless you're saving for a very expensive skill.
+
+To simplify raising skills there is a Teach Finder machine located in every bar (Any Port in Freedom City is one). Simply ''say find <skill>'' near a Teach Finder and it will list every NPC teacher for that skill and their location.
+=====Using Skills=====
+Much of the actions you can take in MKUV depend on dice rolls, which are as random as possible. Having high skills stacks the odds of those rolls in your favor, often quite heavily.
+
+Some skills govern how well you can wield a specific weapon, like fists and rifles. Higher skill levels in these skills increases your character's accuracy with those weapons, and often adds damage potential as well. These skills are used automatically whenever your character attacks something while wielding the associated weapon. 
+  * The fists skill, for example, will increase your accuracy and damage while attacking with your bare hands.
+Some other skills are passive, and don't usually require a special command to use, like dodge and sneak. These skills run in the background and govern how well you can do whatever that skill is supposed to enable.
+  * The dodge skill, for example, will passively decrease your odds of getting hit in a fight.
+Finally, some skills require a command be typed in order to be used, such as repair and fuck. Higher skill will grant you a higher rate of success in the action you are attempting to perform with the skill.
+  * The repair skill, for example, will increase your odds of success when attempting to fix something that's damaged.
+=====Skill Tables=====
+====Weapon Skills====
+| Skill      | Depends              | Notes                                                                                                               |
+| Blades     | Reflexes, Cool       | How well you use blades.                                                                                            |
+| Clubs      | Brawn, Reflexes      | How well you use clubs.                                                                                             |
+| Firearms   | Cool, Reflexes       | How well you use firearms.                                                                                          |
+| Fists      | Brawn, Endurance     | How well you use fist weapons (or no weapon at all).                                                                |
+| Flails     | Brawn, Senses        | How well you use flails.                                                                                            |
+| Focus      | Endurance, Senses    | Also a utility. Determines your success chance at using focus mutations and how well you use psi amps.              |
+| Quickdraw  | Cool, Reflexes       | Also a utility. Determines whether you fumble drawing and stowing things during combat, and how well you use bows.  |
+| Spears     | Endurance, Reflexes  | How well you use spears.                                                                                            |
+| Throw      | Endurance, Reflexes  | Also a utility. Determines your chance to throw things into adjacent tiles and how well you use throwing weapons.   |
+| Whips      | Reflexes, Senses     | How well you use whips.                                                                                             |
+
+====Combat Utility Skills====
+| Skill      | Depends              | Notes                                                                                 |
+| Bombs      | Brains, Cool         | Disarming, breaking, and successfully using bombs without blowing yourself up.        |
+| Dodge      | Reflexes, Senses     | Avoiding damage and explosions in combat.                                             |
+| Torture    | Cool, Senses         | Passively increases crit chances on various weapons.                                  |
+| Wrestle    | Reflex, Endurance    | Grabbing people, stripping stuff from them, and headbutting them with Hooligan.       |
+
+====Crafting Skills====
+| Skill      | Depends  | Notes                                                                                                                    |
+| Chemistry  | Brains   | Used in crafting schematics that are heavy on chemicals and drugs.                                                       |
+| Craft      | Brains   | The mother of crafting skills. Used for crafting and modifying items.                                                    |
+| Linguist   | Brains   | Extremely niche. Used for some craft schematics, and advancing a couple quests.                                          |
+| Science    | Brains   | Also a weapon skill. Used in advanced crafting, and determines how well you use scientific gadgets and science weapons.  |
+
+====General Utility Skills====
+| Skill      | Depends              | Notes                                                                                                 |
+| Appraise   | Brains, Senses       | Checking the value and power of items, clothing, weapons, and creatures.                              |
+| Climb      | Reflexes, Endurance  | Climbing ropes and cliffs.                                                                            |
+| Fish       | Cool, Endurance      | Also (arguably) a weapon skill. Used for catching fish and using a fishing pole as a weapon.          |
+| Fuck       | Endurance, Senses    | Determines how big of a buff and stress relief you get out of sex.                                    |
+| Hack       | Brains               | Picking advanced locks and investigating Cyberspace.                                                  |
+| Locksmith  | Brains, Reflexes     | Also a crafting skill. Used for crafting and picking locks. Helps with hacking electronic locks too.  |
+| Medic      | Brains               | Diagnosing and how well you use medical stuff, like a trauma kit or a defibrillator.                  |
+| Persuade   | Cool, Brains         | Scamming people, representing friends in court.                                                       |
+| Pilot      | Brains, Reflexes     | Flying, boating.                                                                                      |
+| Repair     | Brains               | Fixing weapons, armor, robots, and whatever else may be broken.                                       |
+| Ride       | Cool, Reflexes       | Skating with a skateboard or driving a motorbike                                                      |
+| Scavenge   | Endurance, Senses    | Searching places for materials, cutting things from corpses, and breaking stuff for parts.            |
+| Sneak      | Cool, Senses         | Determines how long it takes for cameras to spot you while committing crimes.                         |
+| Swim       | Endurance            | Swimming speed, not drowning in the ocean.                                                            |
+| Teach      | Brains               | Teaching people skills.                                                                               |
+| Track      | Senses               | Finding the location of players and NPCs in the same zone as you.                                     |

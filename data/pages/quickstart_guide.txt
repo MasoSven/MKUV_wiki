@@ -1,0 +1,297 @@
+======Quickstart Guide======
+MKUV IS MOO. Like any online game, you don't just download and play it per se, you have to connect to it using a client program. 
+ 
+==== What client program? ====
+Depends what OS you're running.
+
+=== Windows ===
+[[https://www.mudlet.org/|Mudlet]] - Easy to set up, easy to use. Works on most things. **If in doubt, get this.**
+
+[[https://mushclient.com/downloads/dlmushclient.htm|MUSHClient]] - Lots of customization. Use this if you want something more advanced or are tired of Mudlet's shitty wrapping.
+
+=== GANOO/LEENUX ===
+[[https://www.mudlet.org/|Mudlet]] - As above. Works on everything, easy to use. Is in most package managers.
+
+''Regular-Ass Telnet'' - Do not use this. It works, but the formatting will fuck up and make the game difficult to play.
+
+=== Help! I'm On A Phone! ===
+[[https://play.google.com/store/apps/details?id=com.happygoatstudios.bt|Blowtorch]] is kind of your only option. And MOOs suck on phone so save yourself the trouble. Use your school Chromebook or something, you dumb zoomer.
+
+==== Everything Else/I Need To Compile It Myself ====
+[[https://github.com/scandum/tintin|TinTin++]] - Grab it from github, compile it. Works a charm.
+
+==== Got one. Now what? ====
+On **Mudlet:**
+
+  - Launch the program and click the 'Connect' box on the top left.
+  - In the new window that pops up, click 'new' at the bottom. And then the profile you just created.
+  - On the right, set the address to ''ipiss.rocks'' and the port to ''7155''
+  - Click the 'connect' button in the same window. You're done! You can just click this in future to connect.
+
+On **tintin**, open it up and type 
+<code>#ses mkuv ipiss.rocks 7155</code>
+and you're in!
+
+======Character Creation======
+**Also read:** ''help chargen''
+
+Welcome to MKUV. If this is the first time you've made it this far you've likely just woken up in Your Bathroom and are feeling very lost and confused. Allow me to hold your hand.
+
+{{:basics:mudlet_bsexvv3dju.png|}}
+
+The highlighted text in every room indicates any objects you can interact with. Your first command to learn is ''examine x'' (can shortened to ''ex x''). This will ''look'' at the object and bring up any relevant commands for it. MKUV is good at detecting if you're shortening commands so object names can be shortened as well.
+
+''help x'' acts similarly to ''ex x'' and will also bring up the help file for that object if there is one. You can also type ''help'' alone to get the link for the wiki and a list of generic help files to read while you're sitting on the toilet or something. There is a lot to learn but don't worry about trying to read all of them now.
+
+While you're here you may want to think about setting your character's description. Simply type ''@describe me as x'' to set what people see when they look at you. The rules for character descriptions are lax since roleplay on MKUV is typically less enforced compared to other MOOs, but please do NOT set it as "." or something as creatively bankrupt as that. Good creativity and proper sentence structure are always appreciated.
+
+If you're feeling particularly creative you can also type ''help @describe'' to learn how to set descriptions for every naked part of your body. There's no need to worry about any of this immediately as you can always change your descriptions later.
+
+If you have any experience from HellMOO you'll want to take the time to ''read'' that [[what_s_new|notice]]. Otherwise, you can select your gender by walking out into The Dreams of Before with the ''east'' (or ''e'') command.
+=====Dreams of Before=====
+**Also try:** ''help skills''
+
+The Dreams of Before are exactly that, a disjointed dream about the way things were before the nuclear bombs hit and destroyed society as we once knew it. This is also part of the MKUV character generation stage, where you collect 4 items that determine your starting [[basics:skills]].
+
+{{:basics:mudlet_bx0jsdpfzt.png|}}
+
+All of your skills (listed by the ''sk'' command) start at 0.00 raw and max out at 15.00. The items you pick up will teach you the first raw in their associated [[basics:skills|skill]] and slightly decrease the xp cost of learning that skill (This is often referred to by players as "tagging" a skill). With that in mind you should reserve your tags for skills you intend to train very high.
+
+For your first character it is highly recommended that you tag one weapon skill and only one. It is hard to go wrong with your other 3 tags, but some good utilities to start with would include medic, repair, or scavenge. Focus is also a useful utility despite being in the weapons category as it affects your ability to use focus and movement [[basics:mutations]] later on. Tagging dodge is unfortunately not an option.
+
+You may take as much time as you want here to think about the skills you want to tag. Don't worry if you change your mind later. You'll find that tagging a skill doesn't actually have a large impact on your character's ability to learn it. Once you've figured it out head ''d'' to proceed.
+
+{{:basics:mudlet_redlvee0yg.png|}}
+
+The playgirl and playboy magazines here will add 10 fetish IPs to your men and women fetishes respectively and you are allowed to take both. This doesn't actually mechanically increase your character's attraction to either sex. Your fetish scores merely keep track of how much you've looked at a given fetish. You can view your current fetish scores with ''sx''.
+
+=====Dreams of Below=====
+**Also read:** ''help stats''
+
+This segment of dreams is where you learn about combat and decide on your [[basics:stats|stat]] distribution.
+
+{{:basics:ivplgowgyn.png|}}
+
+All of your [[basics:stats]] (listed by the ''ss'' command) start at 8.00 raw and max out at 18.00 raw (though you can't raise them higher than 14.00 in chargen). By using the machines in the bunker you will spend 100 of your stat IPs and gain 1.00 raw in the related stat.
+
+In total a player can gain enough stat IPs to raise up to 3 stats to 18.00, though they cannot be redistributed without restarting. With that in mind it is typically unoptimal to split your points among more than 3 stats unless you really know what you're doing.
+
+Your first two stats to max should ideally be what your main weapon [[basics:skills|skill]] depends on (Ex; If you use blades, max reflexes and cool. If you use whips, max reflexes and senses). Think carefully about how you're going to distribute your stat IPs, but feel free to experiment a little too as you grow. No one ever gets their first build perfect... Take a look at the [[basics:stats|stat]] page for some guidance on where you might want those extra stat IPs to go.
+
+After spending all of your stat IPs and beating up Robert a couple of times go ahead and exit your dreams via the southeast-most corner.
+
+======Freedom City======
+
+{{:mudlet_yrhvqqcglm.png|}}
+
+Welcome back to Freedom City. You'll notice reality is a little breezy... It would be wise to get some clothing from the dispenser and wear it before you leave here. As long as you remember your ''ex x'' and ''help x'' commands going forward I'm sure you can figure it out.
+
+=====Communication=====
+**Also read:** ''help communication''
+
+Before going much further you will want to learn how to communicate with others. Though MKUV has enough content to enjoy in single player the game at its core is primarily a social experience.
+
+You can type ''say x'' or ''" x'' to say things in general. This is the most common way of communicating with other players locally.
+<code>
+"Hello.
+Ilyn says, "Hello."
+</code>
+
+In addition to regular speech, you can also direct your speech at a particular player or npc with the ''-<name>'' command. For instance:
+
+{{::mudlet_viedwth4mk.png|}}
+
+Directed speech is very important for interacting with lots of the NPCs you'll encounter in the game. If you speak directly to them about certain things, you can strike up a conversation. Some of the things NPCs will say to you appear in **bold** (unless you suffer from lack of ANSI in your terminal). These are the key words that that NPC will actually react to; the example above is more of an extended, in-character approach. Carrying out the entire conversation with single word prompts works just as well. Many NPCs are unfinished and do not have dialog attached to them, but the ones that do will almost always respond to "hi"; try ''-npc hi!'' if in doubt.
+
+{{::mudlet_7loyy7chwo.png|}}
+
+There is also a built-in method for directly communicating with another player from afar using your wristpad. You do this by typing ''page <name>'' (or '' '<name>'') as follows:
+
+{{::mudlet_gzymxy4exm.png|}}
+
+====Nets====
+**Also read:** ''help nets''
+
+There is a way to communicate with many of the game's players all at once on your wristpad's public chat networks via the ''chat <text>'' command. There are a couple of other nets you can gain access too quite easily but for now this is the only one you might want to know about. You can look up the most recent messages on chatnet by typing ''chatnet hist''.
+
+{{::mudlet_qxee1heqmx.png|}}
+
+====Emotes===
+**Also read:** ''help emote'' and ''help roleplay''
+
+There are also tons of built-in emotes which you can type in just like regular commands. Some are obvious and do exactly what you would think, but there are also a couple of hidden ones with extra flavor. For instance:
+
+{{::mudlet_nl8m6ya46o.png|}}
+
+You also have the ability to make your character do custom emotes. This command is used extensively for roleplaying specific ideas that the built-in emotes can't convey. For instance:
+<code>
+:angrily scoops up trash from the side of the road, glaring at the ground with all the menace of a beaten orphan who looks like they're about to cry.
+Ilyn angrily scoops up trash from the side of the road, glaring at the ground with all the menace of a beaten orphan who looks like they're about to cry.
+</code>
+This can be a very powerful way to communicate with other players if you have enough creativity. Please don't abuse your ability to custom emote.
+
+=====Movement and Maps=====
+**Also read:** ''help movement'' and ''help map''
+
+From where you're standing you can leave the museum one step at a time by moving ''north'', ''up'', ''south'', ''south'', or you can type ''go n u s s'' to queue several movements in one command. This is useful for running past dangerous mobs if you know what path to take beforehand.
+
+Where are you? Take a minute to ''look'' at your surroundings. The title of your room should be displayed on top of the description that showed up. In case you haven't figured it out yet that 5x5 square at the top left is your minimap. It has a 5x5 room range with you in the middle, the blue (). You can see abbreviations for various buildings and locations, like "AP" for Any Port. During the daytime, this thing has color. At night, it's dark, so you can only see it in black and white.
+
+{{:mudlet_bty9xd6yql.png|}}
+
+You also have a wristpad in your inventory, and can use it to see a map: try ''lmap'' to see a detailed graphical map of your area, split into tiles, with little lines and extra data on the side telling you all you could need to know! It even shows your corpmates, if they're nearby. If you're feeling old school, you can also try ''map'', which looks like this:
+
+{{:mudlet_epsyxdru3e.png|}}
+
+the post-apocalyptic world is less than safe. Sometimes it's smart to look before you walk. Try ''l <direction>'' to see where you're going if you want to avoid a rabid dog or RoboRapist3000.
+
+In addition, be careful of exits that are marked in red or blue! <color #ed1c24>Red</color> exits are climbs, and without sufficient climb skill, you may fall off of them and swan-dive into concrete. <color #00a2e8>Blue</color> exits are water exits, which require swim skill to do important things like not drown.
+
+=====Player Corporations=====
+**Also read:** ''help corp''
+
+Before you run off on your merry murderhobo way to Ammunation take a look at your wristpad (''l wri'') and you'll notice you only have $500 to your name which is barely enough to buy a rebar sword from Am's bargain bin. There are a few ways to fix this but the first step everyone should take is joining a player-made "corporation." 
+
+In MKUV player-made corporations are similar to guilds or clans in many other games. They're hardly similar to corporations you would see in regular Cyberpunk media. Player "corps" are more closer to a collection of private military contractors that work together to complete contracts of (usually) violent nature. You can find many of these contracts on the 2nd floor of City Hall in the Northern part of Freedom City.
+
+There are many advantages and almost no disadvantages to being a member of a player corporation, the primary advantage being money from corp contracts which often reward you for killing certain mobs or rescuing NPCs from certain areas.
+
+The secondary advantage is support. Corp members are an invaluable source of real time assistance for the lowly newbie and generally help each other out in various ways. You also get the companionship of being able to chat with your corpmates in corp-only channels and get help in real time.
+
+To get in touch with a corp simply go on chatnet via ''chat x'' and ask to join one. Most corps usually won't pass up a chance to recruit a new member.
+
+In the off chance that no one can stand being around you, you can start your own corp by going to the City Hall (Purple CH in the Northern part of Freedom City) and sign a business license for $15,000. Even being in a solo corporation is worth having the ability to sign contracts, though this likely won't be an option for you until you're experienced enough to scrape together $15,000 in the first place.
+
+=====Jobs (making money)=====
+**Also read:** ''help jobs'' and ''help money''
+
+You may be pleased to hear that there are some ways to make credits and xp without selling your soul to a corp or beating children to a pulp with your bare fists. From outside the Museum type ''go e e e n n n n e s'' to the Unemployment Office (purple UO on the map) where you can find the big list of every job you can do in Hell.
+
+{{:mudlet_dz2zlerldc.png|}}
+
+The "jobs" on the job board aren't like jobs in the conventional sense where you would be employed full-time from 9 to 5. You can think of these like miscellaneous tasks that NPCs will pay you to do. There are many types of jobs in this post-apocalyptic world, from the age old profession of prostitution to the advanced tinkering of engineers. To get a list of your tasks at hand you can type ''jobs'', or ''job <name of job>'' for a more specific look.
+
+Ordinarily you can only use the ''job <name of job>'' command for jobs you've done at least once, but as long as you're in the Unemployment Office you can use it on whichever jobs are listed on the job board. For example, ''job deliveryboy'' should bring up this:
+
+{{:mudlet_jbailmws74.png|}}
+
+Deliveryboy is just one of the many easy ways to start making money with since it requires nothing to start and it introduces you to Ratzo who is the starting point for many other jobs and journals. You can find him on the second floor of the Any Port bar near the middle of Freedom City (''go w s s s s w u'' from the Unemployment Office).
+
+{{:mudlet_89un9eoomd.png|}}
+
+Ask him about "packages" to start the job. You can look at the package he gives you to get directions to the NPC it is meant for and after handing it off you'll receive a small payment from them, finalizing the delivery.
+
+{{:mudlet_bfk9evmheh.png|}}
+
+This particular job pays you a little as you make progress, but the job itself doesn't pay out completely until you deliver at least 3 packages.
+
+{{:mudlet_jup0rg0vqu.png|}}
+
+On completion you'll notice the Deliveryboy ''job'' on your list go on cooldown for 2 days. Time in MKUV is accelerated by about 8x so this comes out to about 6 hours in real life. You won't be able to keep repeating it for the XP reward over and over, but you can still continue delivering packages for Ratzo until you can afford your first [[basics:weapons|weapon]] from Ammunation and some leather [[basics:armor]] from Protect Your Neck (Both can be found near the South Eastern part of Freedom City).
+
+=====Training (raising your stats)=====
+**Also read:** ''help training''
+
+You may have noticed you have 340 spendable gym(stat) IPs in your ''sc'' screen. These can be spent at any Gym-O-Matic machine to increase your [[basics:stats]] similar to the Dreams of Below. Rolf's gym (the red RG on the ''map'') in the North Western part of Slagtown is the easiest one to get to and works just as well as any other gym for this purpose.
+
+{{:mudlet_zbyex7xfmr.png|}}
+
+You will gain 70 spendable gym IPs each time you unlock a [[basics:mutations|mutation]] slot, which are gained at regular intervals of total xp. This table can be found at the bottom of the [[basics:mutations]] page.
+
+=====Learning (raising skills)=====
+**Also read:** ''help learning''
+
+Unlike training stats, learning skills will cost you money equal to the amount of xp you need to spend unless you can find a player teacher on chatnet willing to teach you the skill you want. 
+
+You may have gained enough xp to learn your 2nd raw in your weapon skill while you were discovering areas delivering packages. In which case you can find NPC teachers by going to any bar and looking for the TeachFinder machine (There's one in the North room of Any Port). simply ''say find <skill name>'' in the same room as it to make it list off all of the teachers for a given skill.
+
+{{:mudlet_xptrgqo3eu.png|}}
+
+Some NPC teachers move around a lot, some of them are hard to get to, and some of them might even be dead when you're trying to look for them. In the latter case all you can do is wait for them to respawn before you can learn anything from them.
+
+{{:mudlet_9puw6ilohx.png|}}
+
+Skills at 0 raw will be rolled at a moderate penalty so you'll want to learn at least 1 in any [[basics:skills|skill]] you want to use. Utility skills like climb, medic, repair and track are a few you'll probably want at least a little bit of investment in.
+
+XP gets harder to earn the higher your total XP value gets so it's unwise to over-invest in utility skills. Try to focus on maxing out your weapon skill before trying to learn other skills much higher than 4.
+=====Weapons and Armor=====
+**Also read:** ''help gear''
+
+For [[basics:weapons]] you will want to visit Ammunation which you can find around the South Eastern corner of Freedom City. Look through the [[basics:weapons]] page to see which one is right for you. You'll likely only be able to effectively use weapons with a 0 to 1 raw requirement at this level, or maybe even 2 if you've scrounged enough xp and figured out how to learn your 2nd raw ahead of time. Shop for weapons with raw requirements that fall within your weapon skill raw. 
+
+Some weapons at the same raw requirement start with lower base stats but have more scaling than others and vice-versa. They're all pretty bad overall at such a low skill raw so it's hard to go wrong, but familiarize yourself with the numbers on the list. Some good weapons to start with are:
+  * Firearms - .22 Revolver. You can only find these in Thug Lyfe in Gangland for $1,100. Use your ''map'' and ''lmap'' to find it West of Freedom. 
+     * The ammo for this is sold in the Ammunation automat.
+  * Quickdraw - Cable-Backed Bow. Unfortunately this will be the only one you have access to and its extremely pricey. 
+     * Hopefully you have a backup weapon because the initial investment required to use bows are far from newbie friendly.
+  * Blades - Rebar Sword or Combat Knife. The sword starts off better, but the combat knife has better scaling. Use these in pairs.
+  * Clubs - Truncheon or Pickaxe. Twin truncheons are very fast and scale decently wheras the pickaxe starts slow but with impressive damage.
+  * Throw - Shurikens. Buy three since they drop when you hit something with them.
+  * Whips - Electrical Cord or Antenna Whip. The latter gets better scaling, but the former is literally $1. Use these in pairs.
+  * Spears - Military Fork. This is the only one that isn't abysmally slow.
+  * Fists - Knuckle Buster. These scale great even up to midgame. Use these in pairs.
+  * Focus - Black Ops Psionic Amplifier - Psi Amps cost psi points to use, so you'll want Psi Hypos from Meds 4 Less nearby. Use these in pairs. 
+     * The amount of psi hypos you need to buy to use these things regularly makes them less than newbie friendly.
+  * Flails - Chainlock. You can get one from Smoot's Security which you can find on ''lmap''.
+  * Fish - Bamboo Fishing Pole. Get one from Bait and Switch in Shoreline. Use your ''map'' and ''lmap'' to find it East of Freedom.
+
+For [[basics:armor]] you'll want to visit Protect Ya Neck right beside Ammunation. Try to scrounge enough money to buy at a least:
+  * 1 leather jacket
+  * 1 leather pants 
+  * 1 lacrosse helmet 
+  * 1 lacrosse gloves
+  * 1 pair of work boots
+This is among the most simple and cost-effective setups to start with and leaves you plenty of room for upgrading since you can layer all of these (except the boots) up to three times later down the line for maximum protection. There are better newbie armor combinations out there if you look and you can probably come up with something a little more unique for yourself once you can afford the higher tiers or find other sources for armor.
+
+You can use the ''gear'' command to take a look at your weapon stats and armor values. 
+
+{{::mudlet_6bqs4jpd3x.png|}}
+
+Most of the values are logical enough to understand at a glance, except for Spd(speed). A higher "speed" value means your weapon will swing slower. Melee weapons speed cap at 3.2 with normal fight styles and you can reduce the speed value(increase the speed) of most melee (and throwing) weapons by raising your reflexes [[basics:stats|stat]]. Firearms and bows depend on brawn for speed and each one has their own specific speed cap. Focus weapons are unique for using their own weapon skill total to determine their speed.
+
+Typing ''worn'' will bring up which articles of clothing are covering what parts of your body and how thick each item is.
+
+{{::mudlet_cikszipgjq.png|}}
+
+=====Utilities (and medical)=====
+You should also visit Eschaton Outfitters to shop for some utilities. You can see it as the red EO on your ''lmap''.  Here are some good ones to start with:
+  * **Gasmask** - One of the only face armors available to you. This will prevent you from getting airborne diseases and provide some protection from toxic exposure.
+  * **Canteen** - You can fill this up with liquids to drink like water, or even soda if you wanted to. Fattie.
+  * **Frame Pack** - Containers like this are automatically worn on your character and will reduce the weight of anything you place into them.
+  * **White Cocoon Capsule** - In the event of your death this will deploy and protect all of your items from theft. Opening a cocoon is also much faster than picking your things off the ground.
+     * This is intended for newbies like you and will only work until you hit about 25k total xp.
+
+Meds 4 Less is also in the same area. Hopefully you tagged medic earlier or at least plan to learn some later since **trauma kits** are one of your only reliable sources of healing. Some other things to consider bringing are:
+  * **Suture Kit** - Stops bleeding. Has multiple charges and and needs about 10 medic total to use reliably.
+  * **Instacast** - Heals broken bones. A little pricey since each one is single-use and you'll probably want multiple in case you fail. Needs about 12 medic to use reliably
+  * **Allomycin Hypo** - Cures various airborne illnesses. Black Lung is a pretty common one in FC if you don't have a gasmask on. Can be used multiple times.
+  * **Rad Detox Kit** - Cures rads. These things needs about 15 medic total to use reliably, making it very hard for newbies to use without having multiple.
+  * **First Aid Kit** - Suture kit, instacast, and groinex all in one. Requires around 15 medic total to use reliably. Takes a long time to use but is light, has multiple charges and makes for a decent backup.
+  * **Portable Defibrilator** - Revives other players. Expensive, heavy and likely unnecessary for a newbie but even having one for someone else to use can be helpful. Your medic total determines your chance at reviving someone, but you can defib a player with as little as 10 medic if they've died very recently.
+
+=====Combat=====
+**Also read:** ''help combat''
+
+Yes, I'm sure you've been eager to get to this part. Violence is an extremely employable skill, making up some of the only viable careers available to the forgotten scumbags of society like you. As facet of every day life it will find you no matter how hard you try to avoid it, so learning combat is essential to surviving the dystopic future of MKUV. What would be a better place test out your budding combat skills than your local Orphanage?
+
+{{::59gbndlfri.png|}}
+
+If you didn't skip everything before this part your weapons and armor will make dispatching these little invalids a breeze. Don't worry, no one will care if a couple lost souls are stomped out. Just like how no one will care if **you** get stomped out as well. These things shouldn't be strong enough the upper hand on you after the ample preparations you've made, but if they do please take a moment to consider whatever poor choices you made that lead you to being overwhelmed by a literal child.
+
+{{::95dyamxyed.png|}}
+
+You can ''powerattack'' (shortened to ''pow'') with melee weapons to make a slower, but more accurate and heavier hit. Use this a lot on enemies that are tougher to kill, but keep in mind this has a cooldown and your dodge is reduced while you're doing it.
+
+Typing ''dodge'' will increase your dodge score for a while until you successfully dodge an incoming hit. This has a cooldown and you can't attack while you're in the active dodging state so save this for incoming power attacks or hits from heavy weapons.
+
+You can also ''grab'' an opponent to put them in a hold. While they're grabbed you will continue to attack them with one-handed weapons or strip any armor off of them while they struggle against you. This rolls your wrestle score vs their dodge for success chance, and brawn vs opponent brawn for grab duration.
+
+Finally, after killing your opponent you can ''search corpse'' to see what kind of junk they had on their person.
+
+There's a couple of other things you can do while you're fighting orphans but I'll let you figure that out on your own. You know why you're here. I'm only going to help you learn the important stuff. Remember to use the ''help x'' command for anything you're confused about.
+
+While you're here you can do whatever you want. Kill, rape, pillage, and cannibalize to your heart's content if you so desire. They're just orphans after all. "Do unto others" barely applies when no one's watching. Same goes for **you**. Use the ''tac'' command to see who else might be prowling around for easy kills and cheap thrills.
+
+{{::mudlet_igoddzadd5.png|}}
+
+''tac'' is a very simple and important command you'll probably find yourself using on the regular. It brings up pertinent tactical information about everyone in the room, like who's an NPC and who's a player, which corporation they're in, HP percentages, and status effects they're afflicted with.

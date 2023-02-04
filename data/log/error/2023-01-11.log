@@ -1,0 +1,3 @@
+2023-01-11 23:42:49	/dokuwiki/feed.php(428)	TypeError: Cannot access offset of type string on string
+  #0 /dokuwiki/feed.php(96): rss_buildItems()
+  #1 {main}

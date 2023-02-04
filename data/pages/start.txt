@@ -1,0 +1,46 @@
+======Main Page======
+{{ :logo.png?nolink&400 |{{ :basics:mk.png?nolink&400 |}}
+
+;#;
+MKULTRAVIOLENCE (MKUV) is a post-apocalyptic MOO where the value of life is at an all time low. Undergo horrible mutations, do a ridiculous amount of drugs, and fight with your cock.
+;#;
+
+;#;
+**__You must be at least 18 years of age or older to play MKUV.__**
+;#;
+
+;#;
+Discord link: [[https://discord.gg/Z7jcZUSkgR]]
+;#;
+
+;#;
+Matrix Address: #MKUV:midov.pl
+;#;
+
+;#;
+Input the following info into a [[quickstart_guide|MUD client]] of your choice to play:
+;#;
+
+;#;
+**Address:** ipiss.rocks **Port:** 7155
+;#;
+
+<WRAP group>
+<WRAP column 24%>
+‎
+</WRAP>
+<WRAP 65% column>
+| [[what's new|What's new?]]                                                                                                    |  For Hell veterans. A comprehensive list of things that have been changed from the original HellMOO.  |
+| [[quickstart_guide|Quickstart guide]]                                                                                         |  (WIP) A quick rundown on everything you need to know to get started playing the game                 |
+| [[basics:Stats]]                                                                                                              |  Information about the status window and MKUV's 6 key stats.                                          |
+| [[basics:Skills]]                                                                                                             |  Information about general skill mechanics and MKUV's 33 skills.                                      |
+| [[basics:Weapons]]                                                                                                            |  The big list of weapons and their damage values.                                                     |
+| [[basics:Armor]]                                                                                                              |  The big list of armor and their protection values.                                                   |
+| [[basics:Mutations]]                                                                                                          |  The big list of mutations, their effects, and where to find them.                                    |
+| [[basics:Implants]]                                                                                                           |  The big list of implants. More will hopefully be added in the future.                                |
+| [[basics:Drugs]]                                                                                                              |  The big list of drugs and their associated effects.                                                  |
+| [[Clothing|Clothing]]                                                                                                         |  (WIP) The archive of cosmetics like clothing and where to find them.                                 |
+| [[https://docs.google.com/spreadsheets/d/1vcVqhBKky5WGpkxPZLd-MugyvYIAU97gi6vp-tkKaWA/edit#gid=1374740682|Build calculator]]  |  For people who like to plan out their character builds on paper. Courtesy of Sparrow.                |
+| [[wiki:unpoz dokuwiki|unpoz dokuwiki]]                                                                                        |  Look here for best practices and general formatting information contributing to the wiki.            |
+</WRAP>
+</WRAP>

@@ -1,0 +1,122 @@
+<span class="sy0">&lt;</span>local defaultConfig <span class="sy0">=</span> <span class="br0">&#123;</span>activeColor <span class="sy0">=</span> <span class="st0">&quot;black&quot;</span><span class="sy0">,</span> inactiveColor <span class="sy0">=</span> <span class="st0">&quot;black&quot;</span><span class="sy0">,</span> activeBorder <span class="sy0">=</span> <span class="st0">&quot;black&quot;</span><span class="sy0">,</span> activeText <span class="sy0">=</span> <span class="st0">&quot;white&quot;</span><span class="sy0">,</span> inactiveText <span class="sy0">=</span> <span class="st0">&quot;grey&quot;</span><span class="sy0">,</span> background <span class="sy0">=</span> <span class="st0">&quot;black&quot;</span><span class="sy0">,</span> windowBorder <span class="sy0">=</span> <span class="st0">&quot;black&quot;</span><span class="br0">&#125;</span>
+local emco <span class="sy0">=</span> <span class="kw1">require</span><span class="br0">&#40;</span><span class="st0">&quot;EMCOChat.emco&quot;</span><span class="br0">&#41;</span>
+demonnic <span class="sy0">=</span> demonnic or <span class="br0">&#123;</span><span class="br0">&#125;</span>
+demonnic<span class="sy0">.</span>helpers <span class="sy0">=</span> demonnic<span class="sy0">.</span>helpers or <span class="br0">&#123;</span><span class="br0">&#125;</span>
+demonnic<span class="sy0">.</span>config <span class="sy0">=</span> demonnic<span class="sy0">.</span>config or defaultConfig
+local baseStyle <span class="sy0">=</span> Geyser<span class="sy0">.</span>StyleSheet<span class="sy0">:</span><span class="kw2">new</span><span class="br0">&#40;</span>f <span class="br0">&#91;</span><span class="br0">&#91;</span>
+  border<span class="sy0">-</span>width<span class="sy0">:</span> 2px<span class="sy0">;</span> 
+  border<span class="sy0">-</span>style<span class="sy0">:</span> solid<span class="sy0">;</span> 
+<span class="br0">&#93;</span><span class="br0">&#93;</span><span class="br0">&#41;</span>
+local activeStyle <span class="sy0">=</span> Geyser<span class="sy0">.</span>StyleSheet<span class="sy0">:</span><span class="kw2">new</span><span class="br0">&#40;</span>f <span class="br0">&#91;</span><span class="br0">&#91;</span>
+  border<span class="sy0">-</span>color<span class="sy0">:</span> <span class="br0">&#123;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>activeBorder<span class="br0">&#125;</span><span class="sy0">;</span>
+  background<span class="sy0">-</span>color<span class="sy0">:</span> <span class="br0">&#123;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>activeColor<span class="br0">&#125;</span><span class="sy0">;</span>
+<span class="br0">&#93;</span><span class="br0">&#93;</span><span class="sy0">,</span> baseStyle<span class="br0">&#41;</span>
+local inactiveStyle <span class="sy0">=</span> Geyser<span class="sy0">.</span>StyleSheet<span class="sy0">:</span><span class="kw2">new</span><span class="br0">&#40;</span>f <span class="br0">&#91;</span><span class="br0">&#91;</span>
+  border<span class="sy0">-</span>color<span class="sy0">:</span> <span class="br0">&#123;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>inactiveColor<span class="br0">&#125;</span><span class="sy0">;</span>
+  background<span class="sy0">-</span>color<span class="sy0">:</span> <span class="br0">&#123;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>inactiveColor<span class="br0">&#125;</span><span class="sy0">;</span>
+<span class="br0">&#93;</span><span class="br0">&#93;</span><span class="sy0">,</span> baseStyle<span class="br0">&#41;</span>
+local adjLabelStyle <span class="sy0">=</span> Geyser<span class="sy0">.</span>StyleSheet<span class="sy0">:</span><span class="kw2">new</span><span class="br0">&#40;</span>f<span class="br0">&#91;</span><span class="br0">&#91;</span>
+  background<span class="sy0">-</span>color<span class="sy0">:</span> rgba<span class="br0">&#40;</span><span class="nu0">0</span><span class="sy0">,</span><span class="nu0">0</span><span class="sy0">,</span><span class="nu0">0</span><span class="sy0">,</span><span class="nu0">100</span><span class="sy0">%</span><span class="br0">&#41;</span><span class="sy0">;</span>
+  border<span class="sy0">:</span> 4px double<span class="sy0">;</span>
+  border<span class="sy0">-</span>color<span class="sy0">:</span> <span class="br0">&#123;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>windowBorder<span class="br0">&#125;</span><span class="sy0">;</span>
+  border<span class="sy0">-</span>radius<span class="sy0">:</span> 4px<span class="sy0">;</span><span class="br0">&#93;</span><span class="br0">&#93;</span><span class="br0">&#41;</span>
+&nbsp;
+  local default_constraints <span class="sy0">=</span> <span class="br0">&#123;</span>name <span class="sy0">=</span> <span class="st0">&quot;EMCOPrebuiltChatContainer&quot;</span><span class="sy0">,</span> x <span class="sy0">=</span> <span class="st0">&quot;-25%&quot;</span><span class="sy0">,</span> y <span class="sy0">=</span> <span class="st0">&quot;-60%&quot;</span><span class="sy0">,</span> width <span class="sy0">=</span> <span class="st0">&quot;25%&quot;</span><span class="sy0">,</span> height <span class="sy0">=</span> <span class="st0">&quot;60%&quot;</span><span class="br0">&#125;</span>
+&nbsp;
+&nbsp;
+local chatEMCO <span class="sy0">=</span> demonnic<span class="sy0">.</span>chat
+local EMCOfilename <span class="sy0">=</span> getMudletHomeDir<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="sy0">..</span> <span class="st0">&quot;/EMCO/EMCOPrebuiltChat.lua&quot;</span>
+local confFile <span class="sy0">=</span> getMudletHomeDir<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="sy0">..</span> <span class="st0">&quot;/EMCO/EMCOPrebuiltExtraOptions.lua&quot;</span>
+&nbsp;
+<span class="kw2">function</span> demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span><span class="kw1">echo</span><span class="br0">&#40;</span>msg<span class="br0">&#41;</span>
+  msg <span class="sy0">=</span> msg or <span class="st0">&quot;&quot;</span>
+  cecho<span class="br0">&#40;</span>f <span class="st0">&quot;&lt;green&gt;EMCO Chat: &lt;reset&gt;{msg}<span class="es1">\n</span>&quot;</span><span class="br0">&#41;</span>
+<a href="http://www.php.net/end"><span class="kw3">end</span></a>
+&nbsp;
+<span class="kw2">function</span> demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>resetToDefaults<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  default_constraints<span class="sy0">.</span>adjLabelstyle <span class="sy0">=</span> adjLabelStyle<span class="sy0">:</span>getCSS<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  demonnic<span class="sy0">.</span>container <span class="sy0">=</span> demonnic<span class="sy0">.</span>container or Adjustable<span class="sy0">.</span>Container<span class="sy0">:</span><span class="kw2">new</span><span class="br0">&#40;</span>default_constraints<span class="br0">&#41;</span>
+  demonnic<span class="sy0">.</span>config <span class="sy0">=</span> defaultConfig
+  demonnic<span class="sy0">.</span>chat <span class="sy0">=</span> emco<span class="sy0">:</span><span class="kw2">new</span><span class="br0">&#40;</span><span class="br0">&#123;</span>
+    name <span class="sy0">=</span> <span class="st0">&quot;EMCOPrebuiltChat&quot;</span><span class="sy0">,</span>
+    x <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">,</span>
+    y <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">,</span>
+    height <span class="sy0">=</span> <span class="st0">&quot;100%&quot;</span><span class="sy0">,</span>
+    width <span class="sy0">=</span> <span class="st0">&quot;100%&quot;</span><span class="sy0">,</span>
+    consoles <span class="sy0">=</span> <span class="br0">&#123;</span><span class="st0">&quot;All&quot;</span><span class="sy0">,</span> <span class="st0">&quot;Chats&quot;</span><span class="sy0">,</span> <span class="st0">&quot;Corp&quot;</span><span class="sy0">,</span> <span class="st0">&quot;Pages&quot;</span><span class="br0">&#125;</span><span class="sy0">,</span>
+    allTab <span class="sy0">=</span> <span class="kw4">true</span><span class="sy0">,</span>
+    allTabName <span class="sy0">=</span> <span class="st0">&quot;All&quot;</span><span class="sy0">,</span>
+    blankLine <span class="sy0">=</span> <span class="kw4">false</span><span class="sy0">,</span>
+    blink <span class="sy0">=</span> <span class="kw4">true</span><span class="sy0">,</span>
+    bufferSize <span class="sy0">=</span> <span class="nu0">1000000</span><span class="sy0">,</span>
+    deleteLines <span class="sy0">=</span> <span class="nu0">100000</span><span class="sy0">,</span>
+    timestamp <span class="sy0">=</span> <span class="kw4">false</span><span class="sy0">,</span>
+    fontSize <span class="sy0">=</span> <span class="nu0">12</span><span class="sy0">,</span>
+    font <span class="sy0">=</span> <span class="st0">&quot;Ubuntu Mono&quot;</span><span class="sy0">,</span>
+    consoleColor <span class="sy0">=</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>background<span class="sy0">,</span>
+    activeTabCSS <span class="sy0">=</span> activeStyle<span class="sy0">:</span>getCSS<span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">,</span>
+    inactiveTabCSS <span class="sy0">=</span> inactiveStyle<span class="sy0">:</span>getCSS<span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">,</span>
+    activeTabFGColor <span class="sy0">=</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>activeText<span class="sy0">,</span>
+    inactiveTabFGColor <span class="sy0">=</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>inactiveText<span class="sy0">,</span>
+    gap <span class="sy0">=</span> <span class="nu0">3</span><span class="sy0">,</span>
+    commandLine <span class="sy0">=</span> <span class="kw4">true</span><span class="sy0">,</span>
+  <span class="br0">&#125;</span><span class="sy0">,</span> demonnic<span class="sy0">.</span>container<span class="br0">&#41;</span>
+  chatEMCO <span class="sy0">=</span> demonnic<span class="sy0">.</span>chat
+  demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>retheme<span class="br0">&#40;</span><span class="br0">&#41;</span>
+<a href="http://www.php.net/end"><span class="kw3">end</span></a>
+&nbsp;
+<span class="kw2">function</span> demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>retheme<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  activeStyle<span class="sy0">:</span>set<span class="br0">&#40;</span><span class="st0">&quot;background-color&quot;</span><span class="sy0">,</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>activeColor<span class="br0">&#41;</span>
+  activeStyle<span class="sy0">:</span>set<span class="br0">&#40;</span><span class="st0">&quot;border-color&quot;</span><span class="sy0">,</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>activeBorder<span class="br0">&#41;</span>
+  inactiveStyle<span class="sy0">:</span>set<span class="br0">&#40;</span><span class="st0">&quot;background-color&quot;</span><span class="sy0">,</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>inactiveColor<span class="br0">&#41;</span>
+  inactiveStyle<span class="sy0">:</span>set<span class="br0">&#40;</span><span class="st0">&quot;border-color&quot;</span><span class="sy0">,</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>inactiveColor<span class="br0">&#41;</span>
+  adjLabelStyle<span class="sy0">:</span>set<span class="br0">&#40;</span><span class="st0">&quot;border-color&quot;</span><span class="sy0">,</span> demonnic<span class="sy0">.</span>config<span class="sy0">.</span>windowBorder<span class="br0">&#41;</span>
+  local als <span class="sy0">=</span> adjLabelStyle<span class="sy0">:</span>getCSS<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  demonnic<span class="sy0">.</span>container<span class="sy0">.</span>adjLabelstyle <span class="sy0">=</span> als
+  demonnic<span class="sy0">.</span>container<span class="sy0">.</span>adjLabel<span class="sy0">:</span>setStyleSheet<span class="br0">&#40;</span>als<span class="br0">&#41;</span>
+  chatEMCO<span class="sy0">.</span>activeTabCSS <span class="sy0">=</span> activeStyle<span class="sy0">:</span>getCSS<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  chatEMCO<span class="sy0">.</span>inactiveTabCSS <span class="sy0">=</span> inactiveStyle<span class="sy0">:</span>getCSS<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  chatEMCO<span class="sy0">:</span>setActiveTabFGColor<span class="br0">&#40;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>activeText<span class="br0">&#41;</span>
+  chatEMCO<span class="sy0">:</span>setInactiveTabFGColor<span class="br0">&#40;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>inactiveText<span class="br0">&#41;</span>
+  chatEMCO<span class="sy0">:</span>setConsoleColor<span class="br0">&#40;</span>demonnic<span class="sy0">.</span>config<span class="sy0">.</span>background<span class="br0">&#41;</span>
+  chatEMCO<span class="sy0">:</span>switchTab<span class="br0">&#40;</span>chatEMCO<span class="sy0">.</span>currentTab<span class="br0">&#41;</span>
+<a href="http://www.php.net/end"><span class="kw3">end</span></a>
+&nbsp;
+<span class="kw2">function</span> demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>setConfig<span class="br0">&#40;</span>cfg<span class="sy0">,</span> val<span class="br0">&#41;</span>
+  local validOptions <span class="sy0">=</span> table<span class="sy0">.</span>keys<span class="br0">&#40;</span>demonnic<span class="sy0">.</span>config<span class="br0">&#41;</span>
+  <span class="kw1">if</span> not table<span class="sy0">.</span>contains<span class="br0">&#40;</span>validOptions<span class="sy0">,</span> cfg<span class="br0">&#41;</span> then
+    <span class="kw1">return</span> nil<span class="sy0">,</span> f<span class="st0">&quot;invalid option: valid options are {table.concat(validOptions, ', ')}&quot;</span>
+  <a href="http://www.php.net/end"><span class="kw3">end</span></a>
+  demonnic<span class="sy0">.</span>config<span class="br0">&#91;</span>cfg<span class="br0">&#93;</span> <span class="sy0">=</span> val
+  demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>retheme<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  <span class="kw1">return</span> <span class="kw4">true</span>
+<a href="http://www.php.net/end"><span class="kw3">end</span></a>
+&nbsp;
+<span class="kw2">function</span> demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>save<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  chatEMCO<span class="sy0">:</span>save<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  table<span class="sy0">.</span>save<span class="br0">&#40;</span>confFile<span class="sy0">,</span> demonnic<span class="sy0">.</span>config<span class="br0">&#41;</span>
+  demonnic<span class="sy0">.</span>container<span class="sy0">:</span>save<span class="br0">&#40;</span><span class="br0">&#41;</span>
+<a href="http://www.php.net/end"><span class="kw3">end</span></a>
+&nbsp;
+<span class="kw2">function</span> demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>load<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  <span class="kw1">if</span> io<span class="sy0">.</span>exists<span class="br0">&#40;</span>confFile<span class="br0">&#41;</span> then
+    local conf <span class="sy0">=</span> <span class="br0">&#123;</span><span class="br0">&#125;</span>
+    table<span class="sy0">.</span>load<span class="br0">&#40;</span>confFile<span class="sy0">,</span> conf<span class="br0">&#41;</span>
+    demonnic<span class="sy0">.</span>config <span class="sy0">=</span> table<span class="sy0">.</span>update<span class="br0">&#40;</span>demonnic<span class="sy0">.</span>config<span class="sy0">,</span> conf<span class="br0">&#41;</span>
+  <a href="http://www.php.net/end"><span class="kw3">end</span></a>
+  <span class="kw1">if</span> io<span class="sy0">.</span>exists<span class="br0">&#40;</span>EMCOfilename<span class="br0">&#41;</span> then
+    chatEMCO<span class="sy0">:</span>hide<span class="br0">&#40;</span><span class="br0">&#41;</span>
+    chatEMCO<span class="sy0">:</span>load<span class="br0">&#40;</span><span class="br0">&#41;</span>
+    chatEMCO<span class="sy0">:</span>show<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  <a href="http://www.php.net/end"><span class="kw3">end</span></a>
+  demonnic<span class="sy0">.</span>container<span class="sy0">:</span>load<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>retheme<span class="br0">&#40;</span><span class="br0">&#41;</span>
+<a href="http://www.php.net/end"><span class="kw3">end</span></a>
+&nbsp;
+local <span class="kw2">function</span> startup<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>resetToDefaults<span class="br0">&#40;</span><span class="br0">&#41;</span>
+  demonnic<span class="sy0">.</span>helpers<span class="sy0">.</span>load<span class="br0">&#40;</span><span class="br0">&#41;</span>
+<a href="http://www.php.net/end"><span class="kw3">end</span></a>
+&nbsp;
+registerNamedEventHandler<span class="br0">&#40;</span><span class="st0">&quot;demonnicEMCO&quot;</span><span class="sy0">,</span> <span class="st0">&quot;EMCOprebuilt startup&quot;</span><span class="sy0">,</span> <span class="st0">&quot;sysLoadEvent&quot;</span><span class="sy0">,</span> startup<span class="br0">&#41;</span>
+<span class="sy0">&gt;</span>
