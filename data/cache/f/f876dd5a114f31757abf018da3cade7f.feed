@@ -11,13 +11,13 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-02-03T18:45:19+00:00</dc:date>
+       <dc:date>2023-03-07T23:27:45+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1672862807&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1672795551&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1674100010&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff"/>
             </rdf:Seq>
         </items>
@@ -101,12 +101,12 @@ syntax
 
 PlayGround</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1674100010&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-19T03:46:50+00:00</dc:date>
+        <dc:date>2023-02-26T12:44:17+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1674100010&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff</link>
         <description>Main Page
 
 [{{ :basics:mk.png?nolink&amp;400 |]

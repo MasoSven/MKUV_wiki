@@ -11,10 +11,12 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-02-03T18:45:19+00:00</dc:date>
+       <dc:date>2023-03-07T23:27:44+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1675403578&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678229199&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1677124622&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1674938880&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_igoddzadd5.png&amp;ns=&amp;rev=1674092090&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=95dyamxyed.png&amp;ns=&amp;rev=1674014045&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -32,8 +34,6 @@
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jup0rg0vqu.png&amp;ns=&amp;rev=1673827582&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_bfk9evmheh.png&amp;ns=&amp;rev=1673826973&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_89un9eoomd.png&amp;ns=&amp;rev=1673826385&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jbailmws74.png&amp;ns=&amp;rev=1673825882&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_dz2zlerldc.png&amp;ns=&amp;rev=1673824922&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,12 +42,33 @@
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1675403578&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678229199&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-02-03T05:52:58+00:00</dc:date>
+        <dc:date>2023-03-07T22:46:39+00:00</dc:date>
+        <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
+        <title>basics:mutations - [Table] </title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678229199&amp;do=diff</link>
+        <description>Mutations
+
+Mutations offer you a means of rapid character development, as well as access to active abilities. Every few thousand xp, you're offered an additional mutation slot, which you may fill with a corresponding mutation. Their locations are documented in Injection Junction in Freedom City (marked IJ on your map).</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-02-26T12:44:17+00:00</dc:date>
+        <dc:creator>tendril (tendril@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff</link>
+        <description>Main Page
+
+[{{ :basics:mk.png?nolink&amp;400 |]
+MKULTRAVIOLENCE (MKUV) is a post-apocalyptic MOO where the value of life is at an all time low. Undergo horrible mutations, do a ridiculous amount of drugs, and fight with your cock.You must be at least 18 years of age or older to play MKUV.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1677124622&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-02-23T03:57:02+00:00</dc:date>
         <dc:creator>thread (thread@undisclosed.example.com)</dc:creator>
         <title>basics:weapons - [Table] </title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1675403578&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1677124622&amp;do=diff</link>
         <description>Weapons
 
 Universal Weapon Data
@@ -194,21 +215,5 @@ Here is a list of the many armors included within the game. It is still a WIP, g
         <title>mudlet_89un9eoomd.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_89un9eoomd.png&amp;ns=&amp;rev=1673826385&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=218&amp;t=1673826385&amp;amp;tok=291073&amp;amp;media=mudlet_89un9eoomd.png&quot; alt=&quot;mudlet_89un9eoomd.png&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jbailmws74.png&amp;ns=&amp;rev=1673825882&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2023-01-15T23:38:02+00:00</dc:date>
-        <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
-        <title>mudlet_jbailmws74.png - created</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jbailmws74.png&amp;ns=&amp;rev=1673825882&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=499&amp;h=109&amp;t=1673825882&amp;amp;tok=05a52b&amp;amp;media=mudlet_jbailmws74.png&quot; alt=&quot;mudlet_jbailmws74.png&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_dz2zlerldc.png&amp;ns=&amp;rev=1673824922&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2023-01-15T23:22:02+00:00</dc:date>
-        <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
-        <title>mudlet_dz2zlerldc.png - created</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_dz2zlerldc.png&amp;ns=&amp;rev=1673824922&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=141&amp;t=1673824922&amp;amp;tok=ee27c2&amp;amp;media=mudlet_dz2zlerldc.png&quot; alt=&quot;mudlet_dz2zlerldc.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

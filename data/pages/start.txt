@@ -14,7 +14,7 @@ Discord link: [[https://discord.gg/Z7jcZUSkgR]]
 ;#;
 
 ;#;
-Matrix Address: #MKUV:midov.pl
+Matrix Address: #mkuv:midov.pl
 ;#;
 
 ;#;

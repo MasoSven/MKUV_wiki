@@ -11,16 +11,16 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-02-03T18:45:22+00:00</dc:date>
+       <dc:date>2023-03-07T23:31:34+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1674938880&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1673996945&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:implants&amp;rev=1672883189&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1674115617&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678229199&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1673998301&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1675403578&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1677383905&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -64,12 +64,12 @@ Cybernetic implants can be installed into your body, with various effects:
 	*  Stat implants will give you a specific boost to a stat at the cost of multiplying incoming stress by a certain amount.
 	*  Utility implants typically have functions other than boosting your stats and do not affect stress gain as much.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1674115617&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678229199&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-19T08:06:57+00:00</dc:date>
+        <dc:date>2023-03-07T22:46:39+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:mutations</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1674115617&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678229199&amp;do=diff</link>
         <description>Mutations
 
 Mutations offer you a means of rapid character development, as well as access to active abilities. Every few thousand xp, you're offered an additional mutation slot, which you may fill with a corresponding mutation. Their locations are documented in Injection Junction in Freedom City (marked IJ on your map).</description>
@@ -102,12 +102,12 @@ Typing ss will bring up the first half of your character's score sheet where you
       brawn [12.00 /18]        cool [10.00 /13]    reflexes [18.00 /26] 
      brains [ 8.00 / 7]      senses [18.00 /23]   endurance [ 8.00 / 5]</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1675403578&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1677383905&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-02-03T05:52:58+00:00</dc:date>
+        <dc:date>2023-02-26T03:58:25+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:weapons</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1675403578&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1677383905&amp;do=diff</link>
         <description>Weapons
 
 Universal Weapon Data
