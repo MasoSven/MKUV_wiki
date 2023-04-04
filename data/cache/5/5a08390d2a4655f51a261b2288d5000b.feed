@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.ipiss.rocks/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.ipiss.rocks/dokuwiki/feed.php">
+        <title>MKULTRAVIOLENCE</title>
+        <description></description>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
+       <dc:date>2023-03-05T08:14:59+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1674115617&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1673996945&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico">
+        <title>MKULTRAVIOLENCE</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1674115617&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-19T08:06:57+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>basics:mutations</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1674115617&amp;do=diff</link>
+        <description>Mutations
+
+Mutations offer you a means of rapid character development, as well as access to active abilities. Every few thousand xp, you're offered an additional mutation slot, which you may fill with a corresponding mutation. Their locations are documented in Injection Junction in Freedom City (marked IJ on your map).</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-17T23:30:06+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>basics:skills</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff</link>
+        <description>Skills
+
+Skills (including stats) are what determines what your character is capable of doing alone.
+
+If you type score (or sc as a shortcut) you'll bring up your character's score sheet which includes your stats and skills, among other things. Typically skills with very low totals do not show up in your score sheet.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1673996945&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-17T23:09:05+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>basics:drugs</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1673996945&amp;do=diff</link>
+        <description>Drugs
+
+The high wore away, the chromed skeleton corroding hourly, flesh growing solid, the drug-flesh replaced with the meat of his life. He couldn’t think. He liked that very much, to be conscious and unable to think.
+
+Drugs in MKUV are much like potions and poisons in other games: Substances which alter your character's stats or state of being in some way. Some are common, some are rare, some are dangerous, some are quite benign, some are useful, and some are just plain dumb, but they're all w…</description>
+    </item>
+</rdf:RDF>

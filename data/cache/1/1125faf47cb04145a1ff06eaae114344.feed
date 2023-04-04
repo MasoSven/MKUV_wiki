@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.ipiss.rocks/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.ipiss.rocks/dokuwiki/feed.php">
+        <title>MKULTRAVIOLENCE</title>
+        <description></description>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
+       <dc:date>2023-02-26T19:25:07+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico">
+        <title>MKULTRAVIOLENCE</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-19T01:55:08+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>quickstart_guide</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff</link>
+        <description>Quickstart Guide
+
+MKUV IS MOO. Like any online game, you don't just download and play it per se, you have to connect to it using a client program. 
+
+What client program?
+
+Depends what OS you're running.
+
+Windows
+
+Mudlet - Easy to set up, easy to use. Works on most things.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-17T23:30:06+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>basics:skills</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff</link>
+        <description>Skills
+
+Skills (including stats) are what determines what your character is capable of doing alone.
+
+If you type score (or sc as a shortcut) you'll bring up your character's score sheet which includes your stats and skills, among other things. Typically skills with very low totals do not show up in your score sheet.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-15T19:22:17+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>what_s_new</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff</link>
+        <description>What's new?
+
+Jump to navigation
+Jump to search
+
+[chatnet] Retard says, So what's new?
+
+Glad you asked, retard. Let's give you a rundown. 
+
+New Content
+
+	*  Over 100 new weapons.
+	*  Over 75 new pieces of armor and bits of clothing.
+	*  Over 50 new crafting recipes to discover.</description>
+    </item>
+</rdf:RDF>
