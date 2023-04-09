@@ -11,14 +11,13 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-04-03T06:55:08+00:00</dc:date>
+       <dc:date>2023-04-08T21:16:25+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1672862807&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1672795551&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=weapons2&amp;rev=1680498747&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff"/>
             </rdf:Seq>
         </items>
@@ -112,19 +111,6 @@ PlayGround</description>
 
 [{{ :basics:mk.png?nolink&amp;400 |]
 MKULTRAVIOLENCE (MKUV) is a post-apocalyptic MOO where the value of life is at an all time low. Undergo horrible mutations, do a ridiculous amount of drugs, and fight with your cock.You must be at least 18 years of age or older to play MKUV.</description>
-    </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=weapons2&amp;rev=1680498747&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2023-04-03T05:12:27+00:00</dc:date>
-        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
-        <title>weapons2</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=weapons2&amp;rev=1680498747&amp;do=diff</link>
-        <description>Weapons
-
-Firearms
-
-Rifles
- Weapon Name                                 Ammo                                      Handed   Min. Raw   PC   Speed cap (brawn req)   Accuracy Bonus   Damage Type     Damage Range   Crit Rate         Weight (Dodge penalty)  MKULTRAVIOLENCE index</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff">
         <dc:format>text/html</dc:format>

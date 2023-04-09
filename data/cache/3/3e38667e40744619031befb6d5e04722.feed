@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-04-02T07:03:08+00:00</dc:date>
+       <dc:date>2023-04-08T20:50:19+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1674938880&amp;do=diff"/>
@@ -21,6 +21,7 @@
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1673998301&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1679883187&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1680498747&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -116,5 +117,18 @@ Damage Types
 
 Below is a listing of damage types in MKUV. Taking damage of any type has a chance to damage armor, stun, inflict shock, cause brain damage on head hits or even KO on head/face/groin hits.
 TypeAssociated weaponsNotesBeatBlunt weapons, waster shells, buckshot shells.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1680498747&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-04-03T05:12:27+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>basics:weapons2</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1680498747&amp;do=diff</link>
+        <description>Weapons
+
+Firearms
+
+Rifles
+ Weapon Name                                 Ammo                                      Handed   Min. Raw   PC   Speed cap (brawn req)   Accuracy Bonus   Damage Type     Damage Range   Crit Rate         Weight (Dodge penalty)  MKULTRAVIOLENCE index</description>
     </item>
 </rdf:RDF>
