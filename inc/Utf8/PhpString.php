@@ -40,7 +40,8 @@ class PhpString
      * Unicode aware replacement for strlen()
      *
      * utf8_decode() converts characters that are not in ISO-8859-1
-     * to '?', which, for the purpose of counting, is alright
+     * to '?', which, for the purpose of counting, is alright - It's
+     * even faster than mb_strlen.
      *
      * @param string $string
      * @return int
@@ -51,17 +52,16 @@ class PhpString
      */
     public static function strlen($string)
     {
+        if (function_exists('utf8_decode')) {
+            return strlen(utf8_decode($string));
+        }
+
         if (UTF8_MBSTRING) {
             return mb_strlen($string, 'UTF-8');
         }
 
         if (function_exists('iconv_strlen')) {
             return iconv_strlen($string, 'UTF-8');
-        }
-
-        // utf8_decode is deprecated
-        if (function_exists('utf8_decode')) {
-            return strlen(utf8_decode($string));
         }
 
         return strlen($string);

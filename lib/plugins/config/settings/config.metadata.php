@@ -171,6 +171,8 @@ $meta['iexssprotect']= array('onoff','_caution' => 'security');
 
 $meta['_editing']    = array('fieldset');
 $meta['usedraft']    = array('onoff');
+$meta['htmlok']      = array('onoff','_caution' => 'security');
+$meta['phpok']       = array('onoff','_caution' => 'security');
 $meta['locktime']    = array('numeric');
 $meta['cachetime']   = array('numeric');
 
@@ -240,7 +242,6 @@ $meta['trustedproxy'] = array('regex');
 
 $meta['_feature_flags'] = ['fieldset'];
 $meta['defer_js']       = ['onoff'];
-$meta['hidewarnings']   = ['onoff'];
 
 $meta['_network']    = array('fieldset');
 $meta['dnslookups']  = array('onoff');

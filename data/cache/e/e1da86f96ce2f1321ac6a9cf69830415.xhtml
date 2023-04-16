@@ -726,63 +726,14 @@ If you don&#039;t want any highlighting but want a downloadable file, specify a 
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Downloadable Code Blocks&quot;,&quot;hid&quot;:&quot;downloadable_code_blocks&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:29,&quot;range&quot;:&quot;18606-19136&quot;} -->
-<h2 class="sectionedit30" id="embedding_html_and_php">Embedding HTML and PHP</h2>
-<div class="level2">
-
-<p>
-You can embed raw <abbr title="HyperText Markup Language">HTML</abbr> or PHP code into your documents by using the <code>&lt;html&gt;</code> or <code>&lt;php&gt;</code> tags. (Use uppercase tags if you need to enclose block level elements.)
-</p>
-
-<p>
-<abbr title="HyperText Markup Language">HTML</abbr> example:
-</p>
-<pre class="code">&lt;html&gt;
-This is some &lt;span style=&quot;color:red;font-size:150%;&quot;&gt;inline HTML&lt;/span&gt;
-&lt;/html&gt;
-&lt;HTML&gt;
-&lt;p style=&quot;border:2px dashed red;&quot;&gt;And this is some block HTML&lt;/p&gt;
-&lt;/HTML&gt;</pre>
-
-<p>
-<code class="code html4strict">This is some <span class="sc2">&lt;<a href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a> <span class="kw3">style</span><span class="sy0">=</span><span class="st0">&quot;color:red;font-size:150%;&quot;</span>&gt;</span>inline HTML<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a>&gt;</span></code>
-</p>
-<pre class="code html4strict"><span class="sc2">&lt;<a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a> <span class="kw3">style</span><span class="sy0">=</span><span class="st0">&quot;border:2px dashed red;&quot;</span>&gt;</span>And this is some block HTML<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>&gt;</span></pre>
-<p>
-PHP example:
-</p>
-<pre class="code">&lt;php&gt;
-echo &#039;The PHP version: &#039;;
-echo phpversion();
-echo &#039; (generated inline HTML)&#039;;
-&lt;/php&gt;
-&lt;PHP&gt;
-echo &#039;&lt;table class=&quot;inline&quot;&gt;&lt;tr&gt;&lt;td&gt;The same, but inside a block level element:&lt;/td&gt;&#039;;
-echo &#039;&lt;td&gt;&#039;.phpversion().&#039;&lt;/td&gt;&#039;;
-echo &#039;&lt;/tr&gt;&lt;/table&gt;&#039;;
-&lt;/PHP&gt;</pre>
-
-<p>
-<code class="code php"><span class="kw1">echo</span> <span class="st_h">'The PHP version: '</span><span class="sy0">;</span>
-<span class="kw1">echo</span> <a href="http://www.php.net/phpversion"><span class="kw3">phpversion</span></a><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span>
-<span class="kw1">echo</span> <span class="st_h">' (inline HTML)'</span><span class="sy0">;</span></code>
-</p>
-<pre class="code php"><span class="kw1">echo</span> <span class="st_h">'&lt;table class=&quot;inline&quot;&gt;&lt;tr&gt;&lt;td&gt;The same, but inside a block level element:&lt;/td&gt;'</span><span class="sy0">;</span>
-<span class="kw1">echo</span> <span class="st_h">'&lt;td&gt;'</span><span class="sy0">.</span><a href="http://www.php.net/phpversion"><span class="kw3">phpversion</span></a><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">.</span><span class="st_h">'&lt;/td&gt;'</span><span class="sy0">;</span>
-<span class="kw1">echo</span> <span class="st_h">'&lt;/tr&gt;&lt;/table&gt;'</span><span class="sy0">;</span></pre>
-<p>
-<strong>Please Note</strong>: <abbr title="HyperText Markup Language">HTML</abbr> and PHP embedding is disabled by default in the configuration. If disabled, the code is displayed instead of executed.
-</p>
-
-</div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Embedding HTML and PHP&quot;,&quot;hid&quot;:&quot;embedding_html_and_php&quot;,&quot;codeblockOffset&quot;:9,&quot;secid&quot;:30,&quot;range&quot;:&quot;19137-20370&quot;} -->
-<h2 class="sectionedit31" id="rssatom_feed_aggregation">RSS/ATOM Feed Aggregation</h2>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Downloadable Code Blocks&quot;,&quot;hid&quot;:&quot;downloadable_code_blocks&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:29,&quot;range&quot;:&quot;18606-19135&quot;} -->
+<h2 class="sectionedit30" id="rssatom_feed_aggregation">RSS/ATOM Feed Aggregation</h2>
 <div class="level2">
 
 <p>
 <a href="/dokuwiki/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can integrate data from external XML feeds. For parsing the XML feeds, <a href="http://simplepie.org/" class="urlextern" title="http://simplepie.org/" rel="ugc nofollow">SimplePie</a> is used. All formats understood by SimplePie can be used in DokuWiki as well. You can influence the rendering by multiple additional space separated parameters:
 </p>
-<div class="table sectionedit32"><table class="inline">
+<div class="table sectionedit31"><table class="inline">
 	<thead>
 	<tr class="row0">
 		<th class="col0 leftalign"> Parameter  </th><th class="col1"> Description </th>
@@ -801,7 +752,7 @@ echo &#039;&lt;/tr&gt;&lt;/table&gt;&#039;;
 		<td class="col0 leftalign"> date       </td><td class="col1"> show item dates </td>
 	</tr>
 	<tr class="row5">
-		<td class="col0"> description</td><td class="col1"> show the item description. If <a href="https://www.dokuwiki.org/config%3Ahtmlok" class="interwiki iw_doku" title="https://www.dokuwiki.org/config%3Ahtmlok">HTML</a> is disabled all tags will be stripped </td>
+		<td class="col0"> description</td><td class="col1"> show the item description. All <abbr title="HyperText Markup Language">HTML</abbr> tags will be stripped </td>
 	</tr>
 	<tr class="row6">
 		<td class="col0 leftalign"> nosort     </td><td class="col1"> do not sort the items in the feed </td>
@@ -810,7 +761,7 @@ echo &#039;&lt;/tr&gt;&lt;/table&gt;&#039;;
 		<td class="col0"> <em>n</em>[dhm] </td><td class="col1"> refresh period, where d=days, h=hours, m=minutes. (e.g. 12h = 12 hours). </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table5&quot;,&quot;secid&quot;:32,&quot;range&quot;:&quot;20691-21182&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table5&quot;,&quot;secid&quot;:31,&quot;range&quot;:&quot;19456-19909&quot;} -->
 <p>
 The refresh period defaults to 4 hours. Any value below 10 minutes will be treated as 10 minutes. <a href="/dokuwiki/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> will generally try to supply a cached version of a page, obviously this is inappropriate when the page contains dynamic external content. The parameter tells <a href="/dokuwiki/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> to re-render the page if it is more than <em>refresh period</em> since the page was last rendered.
 </p>
@@ -823,16 +774,16 @@ By default the feed will be sorted by date, newest items first. You can sort it 
 <strong>Example:</strong>
 </p>
 <pre class="code">{{rss&gt;http://slashdot.org/index.rss 5 author date 1h }}</pre>
-<ul class="rss"><li><div class="li"><a href="https://slashdot.org/story/23/03/30/1910207/south-korea-passes-tax-break-driven-chips-act-as-protectionism-fears-mount?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://slashdot.org/story/23/03/30/1910207/south-korea-passes-tax-break-driven-chips-act-as-protectionism-fears-mount?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">South Korea Passes Tax Break-Driven &#039;Chips Act&#039; as Protectionism Fears Mount</a> by msmash (2023/03/30 20:40)</div></li><li><div class="li"><a href="https://slashdot.org/story/23/03/30/192229/inside-the-deepfake-porn-economy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://slashdot.org/story/23/03/30/192229/inside-the-deepfake-porn-economy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">Inside the Deepfake Porn Economy</a> by msmash (2023/03/30 20:00)</div></li><li><div class="li"><a href="https://tech.slashdot.org/story/23/03/30/1914249/us-partner-countries-call-for-controls-to-counter-misuse-of-spyware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://tech.slashdot.org/story/23/03/30/1914249/us-partner-countries-call-for-controls-to-counter-misuse-of-spyware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">US, Partner Countries Call For Controls To Counter Misuse of Spyware</a> by msmash (2023/03/30 19:20)</div></li><li><div class="li"><a href="https://slashdot.org/story/23/03/30/1835215/amazon-seller-consultant-admits-to-bribing-employees-to-help-clients?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://slashdot.org/story/23/03/30/1835215/amazon-seller-consultant-admits-to-bribing-employees-to-help-clients?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">Amazon Seller Consultant Admits To Bribing Employees To Help Clients</a> by msmash (2023/03/30 18:40)</div></li><li><div class="li"><a href="https://developers.slashdot.org/story/23/03/30/184239/one-in-two-new-npm-packages-is-seo-spam-right-now?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://developers.slashdot.org/story/23/03/30/184239/one-in-two-new-npm-packages-is-seo-spam-right-now?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">&#039;One In Two New Npm Packages Is SEO Spam Right Now&#039;</a> by msmash (2023/03/30 18:02)</div></li></ul>
+<ul class="rss"><li><div class="li"><a href="https://news.slashdot.org/story/23/04/16/002204/fsf-says-googles-decision-to-deprecate-jpeg-xl-emphasizes-need-for-browser-choice?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://news.slashdot.org/story/23/04/16/002204/fsf-says-googles-decision-to-deprecate-jpeg-xl-emphasizes-need-for-browser-choice?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">FSF Says Google&#039;s Decision to Deprecate JPEG-XL Emphasizes Need for Browser Choice</a> by EditorDavid (2023/04/16 07:34)</div></li><li><div class="li"><a href="https://developers.slashdot.org/story/23/04/15/2333244/undercutting-microsoft-amazon-offers-free-access-to-its-ai-coding-assistant-codewhisperer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://developers.slashdot.org/story/23/04/15/2333244/undercutting-microsoft-amazon-offers-free-access-to-its-ai-coding-assistant-codewhisperer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">Undercutting Microsoft, Amazon Offers Free Access to Its AI Coding Assistant &#039;CodeWhisperer&#039;</a> by EditorDavid (2023/04/16 04:34)</div></li><li><div class="li"><a href="https://hardware.slashdot.org/story/23/04/15/2218228/germany-quits-nuclear-power-closes-its-final-three-plants?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://hardware.slashdot.org/story/23/04/15/2218228/germany-quits-nuclear-power-closes-its-final-three-plants?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">Germany Quits Nuclear Power, Closes Its Final Three Plants</a> by EditorDavid (2023/04/16 01:34)</div></li><li><div class="li"><a href="https://news.slashdot.org/story/23/04/15/0329202/should-managers-permanently-stop-requiring-degrees-for-it-positions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://news.slashdot.org/story/23/04/15/0329202/should-managers-permanently-stop-requiring-degrees-for-it-positions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">Should Managers Permanently Stop Requiring Degrees for IT Positions?</a> by EditorDavid (2023/04/15 22:34)</div></li><li><div class="li"><a href="https://yro.slashdot.org/story/23/04/15/0537250/government-cybersecurity-agencies-unite-to-urge-secure-software-design-practices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" class="urlextern" title="https://yro.slashdot.org/story/23/04/15/0537250/government-cybersecurity-agencies-unite-to-urge-secure-software-design-practices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" rel="ugc nofollow">Government Cybersecurity Agencies Unite to Urge Secure Software Design Practices</a> by EditorDavid (2023/04/15 21:34)</div></li></ul>
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;RSS\/ATOM Feed Aggregation&quot;,&quot;hid&quot;:&quot;rssatom_feed_aggregation&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:31,&quot;range&quot;:&quot;20371-21874&quot;} -->
-<h2 class="sectionedit33" id="control_macros">Control Macros</h2>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;RSS\/ATOM Feed Aggregation&quot;,&quot;hid&quot;:&quot;rssatom_feed_aggregation&quot;,&quot;codeblockOffset&quot;:9,&quot;secid&quot;:30,&quot;range&quot;:&quot;19136-20601&quot;} -->
+<h2 class="sectionedit32" id="control_macros">Control Macros</h2>
 <div class="level2">
 
 <p>
 Some syntax influences how DokuWiki renders a page without creating any output it self. The following control macros are availble:
 </p>
-<div class="table sectionedit34"><table class="inline">
+<div class="table sectionedit33"><table class="inline">
 	<thead>
 	<tr class="row0">
 		<th class="col0 leftalign"> Macro           </th><th class="col1"> Description </th>
@@ -845,18 +796,47 @@ Some syntax influences how DokuWiki renders a page without creating any output i
 		<td class="col0"> ~~NOCACHE~~ </td><td class="col1"> DokuWiki caches all output by default. Sometimes this might not be wanted (eg. when the &lt;php&gt; syntax above is used), adding this macro will force DokuWiki to rerender a page on every call </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table6&quot;,&quot;secid&quot;:34,&quot;range&quot;:&quot;22035-22377&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table6&quot;,&quot;secid&quot;:33,&quot;range&quot;:&quot;20762-21104&quot;} -->
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Control Macros&quot;,&quot;hid&quot;:&quot;control_macros&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:33,&quot;range&quot;:&quot;21875-22378&quot;} -->
-<h2 class="sectionedit35" id="syntax_plugins">Syntax Plugins</h2>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Control Macros&quot;,&quot;hid&quot;:&quot;control_macros&quot;,&quot;codeblockOffset&quot;:9,&quot;secid&quot;:32,&quot;range&quot;:&quot;20602-21105&quot;} -->
+<h2 class="sectionedit34" id="syntax_plugins">Syntax Plugins</h2>
 <div class="level2">
 
 <p>
 DokuWiki&#039;s syntax can be extended by <a href="https://www.dokuwiki.org/plugins" class="interwiki iw_doku" title="https://www.dokuwiki.org/plugins">Plugins</a>. How the installed plugins are used is described on their appropriate description pages. The following syntax plugins are available in this particular DokuWiki installation:
 </p>
-<ul><li><div class="li"><a href="https://www.dokuwiki.org/plugin:color" class="urlextern" title="https://www.dokuwiki.org/plugin:color" rel="ugc nofollow">color syntax plugin</a> <em>2022-10-19</em> by <a href="mailto:&#104;&#97;&#114;&#97;&#108;&#100;&#46;&#104;&#97;&#110;&#99;&#104;&#101;&#45;&#111;&#108;&#115;&#101;&#110;&#64;&#110;&#116;&#110;&#117;&#46;&#110;&#111;" class="mail" title="&#104;&#97;&#114;&#97;&#108;&#100;&#46;&#104;&#97;&#110;&#99;&#104;&#101;&#45;&#111;&#108;&#115;&#101;&#110;&#64;&#110;&#116;&#110;&#117;&#46;&#110;&#111;">Harald Hanche-Olsen</a><br />Write colored text in DokuWiki.</div></li><li><div class="li"><a href="http://www.dokuwiki.org/plugin:csv" class="urlextern" title="http://www.dokuwiki.org/plugin:csv" rel="ugc nofollow">CSV Plugin</a> <em>2022-01-03</em> by <a href="mailto:&#100;&#111;&#107;&#117;&#119;&#105;&#107;&#105;&#64;&#99;&#111;&#115;&#109;&#111;&#99;&#111;&#100;&#101;&#46;&#100;&#101;" class="mail" title="&#100;&#111;&#107;&#117;&#119;&#105;&#107;&#105;&#64;&#99;&#111;&#115;&#109;&#111;&#99;&#111;&#100;&#101;&#46;&#100;&#101;">Andreas Gohr</a><br />Displays a CSV file, or inline CSV data, as a table</div></li><li><div class="li"><a href="http://www.dokuwiki.org/plugin:divalign2" class="urlextern" title="http://www.dokuwiki.org/plugin:divalign2" rel="ugc nofollow">Divalign2 Plugin</a> <em>2020-06-11</em> by <a href="mailto:&#108;&#97;&#109;&#98;&#97;&#108;&#105;&#99;&#105;&#111;&#117;&#115;&#64;&#116;&#117;&#116;&#97;&#46;&#105;&#111;" class="mail" title="&#108;&#97;&#109;&#98;&#97;&#108;&#105;&#99;&#105;&#111;&#117;&#115;&#64;&#116;&#117;&#116;&#97;&#46;&#105;&#111;">Luis Machuca Bezzaza</a><br />Paragraph Alignment for DokuWiki</div></li><li><div class="li"><a href="http://www.dokuwiki.org/plugin:hidden" class="urlextern" title="http://www.dokuwiki.org/plugin:hidden" rel="ugc nofollow">hidden Plugin</a> <em>2023-01-03</em> by <a href="mailto:&#103;&#117;&#105;&#108;&#108;&#97;&#117;&#109;&#101;&#46;&#116;&#117;&#114;&#114;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="mail" title="&#103;&#117;&#105;&#108;&#108;&#97;&#117;&#109;&#101;&#46;&#116;&#117;&#114;&#114;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Guillaume Turri</a><br />Enable to hide/show details</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:indexmenu" class="urlextern" title="https://www.dokuwiki.org/plugin:indexmenu" rel="ugc nofollow">Indexmenu Plugin</a> <em>2022-08-01</em> by <a href="mailto:&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#64;&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#46;&#110;&#101;&#116;&#115;&#111;&#110;&#115;&#46;&#111;&#114;&#103;" class="mail" title="&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#64;&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#46;&#110;&#101;&#116;&#115;&#111;&#110;&#115;&#46;&#111;&#114;&#103;">Samuele Tognini</a><br />Show a customizable and sortable index for a namespace</div></li><li><div class="li"><a href="http://dokuwiki.org/plugin:info" class="urlextern" title="http://dokuwiki.org/plugin:info" rel="ugc nofollow">Info Plugin</a> <em>2020-06-04</em> by <a href="mailto:&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;">Andreas Gohr</a><br />Displays information about various DokuWiki internals</div></li><li><div class="li"><a href="https://github.com/FyiurAmron/sortablejs" class="urlextern" title="https://github.com/FyiurAmron/sortablejs" rel="ugc nofollow">sortablejs</a> <em>2022-10-25</em> by <a href="mailto:&#115;&#112;&#97;&#109;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="mail" title="&#115;&#112;&#97;&#109;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">vaxquis</a><br />Allow sorting tables by columns</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:vshare" class="urlextern" title="https://www.dokuwiki.org/plugin:vshare" rel="ugc nofollow">Video Sharing Site Plugin</a> <em>2022-02-03</em> by <a href="mailto:&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;">Andreas Gohr</a><br />Easily embed videos from various Video Sharing sites. Example: {{youtube&gt;XXXXXX}}</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:wrap" class="urlextern" title="https://www.dokuwiki.org/plugin:wrap" rel="ugc nofollow">Wrap Plugin</a> <em>2022-08-10</em> by <a href="mailto:&#97;&#110;&#105;&#107;&#97;&#64;&#115;&#101;&#108;&#102;&#116;&#104;&#105;&#110;&#107;&#101;&#114;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#105;&#107;&#97;&#64;&#115;&#101;&#108;&#102;&#116;&#104;&#105;&#110;&#107;&#101;&#114;&#46;&#111;&#114;&#103;">Anika Henke</a><br />Universal plugin which combines functionalities of many other plugins. Wrap wiki text inside containers (divs or spans) and give them a class (choose from a variety of preset classes), a width and/or a language with its associated text direction.</div></li></ul>
+<ul>
+<li class="level1"><div class="li"><a href="https://www.dokuwiki.org/plugin:color" class="urlextern" title="https://www.dokuwiki.org/plugin:color" rel="ugc nofollow">color syntax plugin</a> <em>2022-10-19</em> by <a href="mailto:&#104;&#97;&#114;&#97;&#108;&#100;&#46;&#104;&#97;&#110;&#99;&#104;&#101;&#45;&#111;&#108;&#115;&#101;&#110;&#64;&#110;&#116;&#110;&#117;&#46;&#110;&#111;" class="mail" title="&#104;&#97;&#114;&#97;&#108;&#100;&#46;&#104;&#97;&#110;&#99;&#104;&#101;&#45;&#111;&#108;&#115;&#101;&#110;&#64;&#110;&#116;&#110;&#117;&#46;&#110;&#111;">Harald Hanche-Olsen</a><br/>
+Write colored text in DokuWiki.</div>
+</li>
+<li class="level1"><div class="li"><a href="http://www.dokuwiki.org/plugin:csv" class="urlextern" title="http://www.dokuwiki.org/plugin:csv" rel="ugc nofollow">CSV Plugin</a> <em>2022-01-03</em> by <a href="mailto:&#100;&#111;&#107;&#117;&#119;&#105;&#107;&#105;&#64;&#99;&#111;&#115;&#109;&#111;&#99;&#111;&#100;&#101;&#46;&#100;&#101;" class="mail" title="&#100;&#111;&#107;&#117;&#119;&#105;&#107;&#105;&#64;&#99;&#111;&#115;&#109;&#111;&#99;&#111;&#100;&#101;&#46;&#100;&#101;">Andreas Gohr</a><br/>
+Displays a CSV file, or inline CSV data, as a table</div>
+</li>
+<li class="level1"><div class="li"><a href="http://www.dokuwiki.org/plugin:divalign2" class="urlextern" title="http://www.dokuwiki.org/plugin:divalign2" rel="ugc nofollow">Divalign2 Plugin</a> <em>2020-06-11</em> by <a href="mailto:&#108;&#97;&#109;&#98;&#97;&#108;&#105;&#99;&#105;&#111;&#117;&#115;&#64;&#116;&#117;&#116;&#97;&#46;&#105;&#111;" class="mail" title="&#108;&#97;&#109;&#98;&#97;&#108;&#105;&#99;&#105;&#111;&#117;&#115;&#64;&#116;&#117;&#116;&#97;&#46;&#105;&#111;">Luis Machuca Bezzaza</a><br/>
+Paragraph Alignment for DokuWiki</div>
+</li>
+<li class="level1"><div class="li"><a href="http://www.dokuwiki.org/plugin:hidden" class="urlextern" title="http://www.dokuwiki.org/plugin:hidden" rel="ugc nofollow">hidden Plugin</a> <em>2023-01-25</em> by <a href="mailto:&#103;&#117;&#105;&#108;&#108;&#97;&#117;&#109;&#101;&#46;&#116;&#117;&#114;&#114;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="mail" title="&#103;&#117;&#105;&#108;&#108;&#97;&#117;&#109;&#101;&#46;&#116;&#117;&#114;&#114;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Guillaume Turri</a><br/>
+Enable to hide/show details</div>
+</li>
+<li class="level1"><div class="li"><a href="https://www.dokuwiki.org/plugin:indexmenu" class="urlextern" title="https://www.dokuwiki.org/plugin:indexmenu" rel="ugc nofollow">Indexmenu Plugin</a> <em>2022-08-01</em> by <a href="mailto:&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#64;&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#46;&#110;&#101;&#116;&#115;&#111;&#110;&#115;&#46;&#111;&#114;&#103;" class="mail" title="&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#64;&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#46;&#110;&#101;&#116;&#115;&#111;&#110;&#115;&#46;&#111;&#114;&#103;">Samuele Tognini</a><br/>
+Show a customizable and sortable index for a namespace</div>
+</li>
+<li class="level1"><div class="li"><a href="http://dokuwiki.org/plugin:info" class="urlextern" title="http://dokuwiki.org/plugin:info" rel="ugc nofollow">Info Plugin</a> <em>2020-06-04</em> by <a href="mailto:&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;">Andreas Gohr</a><br/>
+Displays information about various DokuWiki internals</div>
+</li>
+<li class="level1"><div class="li"><a href="https://github.com/FyiurAmron/sortablejs" class="urlextern" title="https://github.com/FyiurAmron/sortablejs" rel="ugc nofollow">sortablejs</a> <em>2022-10-25</em> by <a href="mailto:&#115;&#112;&#97;&#109;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="mail" title="&#115;&#112;&#97;&#109;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">vaxquis</a><br/>
+Allow sorting tables by columns</div>
+</li>
+<li class="level1"><div class="li"><a href="https://www.dokuwiki.org/plugin:vshare" class="urlextern" title="https://www.dokuwiki.org/plugin:vshare" rel="ugc nofollow">Video Sharing Site Plugin</a> <em>2022-02-03</em> by <a href="mailto:&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;">Andreas Gohr</a><br/>
+Easily embed videos from various Video Sharing sites. Example: {{youtube&gt;XXXXXX}}</div>
+</li>
+<li class="level1"><div class="li"><a href="https://www.dokuwiki.org/plugin:wrap" class="urlextern" title="https://www.dokuwiki.org/plugin:wrap" rel="ugc nofollow">Wrap Plugin</a> <em>2022-08-10</em> by <a href="mailto:&#97;&#110;&#105;&#107;&#97;&#64;&#115;&#101;&#108;&#102;&#116;&#104;&#105;&#110;&#107;&#101;&#114;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#105;&#107;&#97;&#64;&#115;&#101;&#108;&#102;&#116;&#104;&#105;&#110;&#107;&#101;&#114;&#46;&#111;&#114;&#103;">Anika Henke</a><br/>
+Universal plugin which combines functionalities of many other plugins. Wrap wiki text inside containers (divs or spans) and give them a class (choose from a variety of preset classes), a width and/or a language with its associated text direction.</div>
+</li>
+</ul>
+
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Syntax Plugins&quot;,&quot;hid&quot;:&quot;syntax_plugins&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:35,&quot;range&quot;:&quot;22379-&quot;} --><div class="footnotes">
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Syntax Plugins&quot;,&quot;hid&quot;:&quot;syntax_plugins&quot;,&quot;codeblockOffset&quot;:9,&quot;secid&quot;:34,&quot;range&quot;:&quot;21106-&quot;} --><div class="footnotes">
 <div class="fn"><sup><a href="#fnt__1" id="fn__1" class="fn_bot">1)</a></sup> 
 <div class="content">This is a footnote</div></div>
 <div class="fn"><sup><a href="#fnt__2" id="fn__2" class="fn_bot">2)</a></sup> 

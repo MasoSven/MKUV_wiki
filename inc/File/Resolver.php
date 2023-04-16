@@ -51,8 +51,6 @@ abstract class Resolver
      */
     protected function resolvePrefix($id)
     {
-        if($id === '') return $id;
-
         // relative to current page (makes the current page a start page)
         if ($id[0] === '~') {
             $id = $this->contextID . ':' . substr($id, 1);

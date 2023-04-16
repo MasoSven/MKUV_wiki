@@ -1,12 +1,8 @@
 <?php
-
-use dokuwiki\FeedParserFile;
-use SimplePie\File;
-
 /**
  * We override some methods of the original SimplePie class here
  */
-class FeedParser extends \SimplePie\SimplePie {
+class FeedParser extends SimplePie {
 
     /**
      * Constructor. Set some defaults
@@ -14,7 +10,7 @@ class FeedParser extends \SimplePie\SimplePie {
     public function __construct(){
         parent::__construct();
         $this->enable_cache(false);
-        $this->registry->register(File::class, FeedParserFile::class);
+        $this->set_file_class(\dokuwiki\FeedParserFile::class);
     }
 
     /**

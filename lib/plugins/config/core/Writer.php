@@ -43,17 +43,12 @@ class Writer {
             throw new \Exception('no save');
         }
 
-        $out = '';
+        $out = $this->getHeader();
         foreach($settings as $setting) {
             if($setting->shouldBeSaved()) {
                 $out .= $setting->out('conf', 'php');
             }
         }
-
-        if($out === '') {
-            throw new \Exception('empty config');
-        }
-        $out = $this->getHeader() . $out;
 
         fwrite($fh, $out);
         fclose($fh);

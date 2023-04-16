@@ -5,21 +5,18 @@ namespace dokuwiki\Form;
 /**
  * Class DropdownElement
  *
- * Represents a HTML select. Please not that prefilling with input data only works for single values.
+ * Represents a HTML select. Please note that this does not support multiple selected options!
  *
  * @package dokuwiki\Form
  */
 class DropdownElement extends InputElement
 {
     /** @var array OptGroup[] */
-    protected $optGroups = [];
-
-    /** @var string[] the currently set values */
-    protected $values = [];
+    protected $optGroups = array();
 
     /**
      * @param string $name The name of this form element
-     * @param array $options The available options
+     * @param array  $options The available options
      * @param string $label The label text for this element (will be autoescaped)
      */
     public function __construct($name, $options, $label = '')
@@ -34,9 +31,9 @@ class DropdownElement extends InputElement
      * Add an `<optgroup>` and respective options
      *
      * @param string $label
-     * @param array $options
+     * @param array  $options
      * @return OptGroup a reference to the added optgroup
-     * @throws \InvalidArgumentException
+     * @throws \Exception
      */
     public function addOptGroup($label, $options)
     {
@@ -52,10 +49,10 @@ class DropdownElement extends InputElement
      *
      * optgroups have to be given as associative array
      *   * the key being the label of the group
-     *   * the value being an array of options as defined in @param null|array $optGroups
-     * @return OptGroup[]|DropdownElement
-     * @see OptGroup::options()
+     *   * the value being an array of options as defined in @see OptGroup::options()
      *
+     * @param null|array $optGroups
+     * @return OptGroup[]|DropdownElement
      */
     public function optGroups($optGroups = null)
     {
@@ -98,76 +95,92 @@ class DropdownElement extends InputElement
     }
 
     /**
+     * Gets or sets an attribute
+     *
+     * When no $value is given, the current content of the attribute is returned.
+     * An empty string is returned for unset attributes.
+     *
+     * When a $value is given, the content is set to that value and the Element
+     * itself is returned for easy chaining
+     *
+     * @param string $name Name of the attribute to access
+     * @param null|string $value New value to set
+     * @return string|$this
+     */
+    public function attr($name, $value = null)
+    {
+        if (strtolower($name) == 'multiple') {
+            throw new \InvalidArgumentException(
+                'Sorry, the dropdown element does not support the "multiple" attribute'
+            );
+        }
+        return parent::attr($name, $value);
+    }
+
+    /**
      * Get or set the current value
      *
      * When setting a value that is not defined in the options, the value is ignored
      * and the first option's value is selected instead
      *
-     * @param null|string|string[] $value The value to set
-     * @return $this|string|string[]
+     * @param null|string $value The value to set
+     * @return $this|string
      */
     public function val($value = null)
     {
-        // getter
-        if ($value === null) {
-            if (isset($this->attributes['multiple'])) {
-                return $this->values;
-            } else {
-                return $this->values[0];
-            }
-        }
+        if ($value === null) return $this->value;
 
-        // setter
-        $this->values = $this->setValuesInOptGroups((array) $value);
-        if(!$this->values) {
+        $value_exists = $this->setValueInOptGroups($value);
+
+        if ($value_exists) {
+            $this->value = $value;
+        } else {
             // unknown value set, select first option instead
-            $this->values = $this->setValuesInOptGroups((array) $this->getFirstOptionKey());
+            $this->value = $this->getFirstOption();
+            $this->setValueInOptGroups($this->value);
         }
 
         return $this;
     }
 
     /**
-     * Returns the first option's key
+     * Returns the first options as it will be rendered in HTML
      *
      * @return string
      */
-    protected function getFirstOptionKey()
+    protected function getFirstOption()
     {
         $options = $this->options();
         if (!empty($options)) {
             $keys = array_keys($options);
-            return (string)array_shift($keys);
+            return (string) array_shift($keys);
         }
         foreach ($this->optGroups as $optGroup) {
             $options = $optGroup->options();
             if (!empty($options)) {
                 $keys = array_keys($options);
-                return (string)array_shift($keys);
+                return (string) array_shift($keys);
             }
         }
-
-        return ''; // should not happen
     }
 
     /**
      * Set the value in the OptGroups, including the optgroup for the options without optgroup.
      *
-     * @param string[] $values The values to be set
-     * @return string[] The values actually set
+     * @param string $value
+     * @return bool
      */
-    protected function setValuesInOptGroups($values)
+    protected function setValueInOptGroups($value)
     {
-        $valueset = [];
-
+        $value_exists = false;
         /** @var OptGroup $optGroup */
         foreach ($this->optGroups as $optGroup) {
-            $found = $optGroup->storeValues($values);
-            $values = array_diff($values, $found);
-            $valueset = array_merge($valueset, $found);
+            $value_exists = $optGroup->storeValue($value) || $value_exists;
+            if ($value_exists) {
+                $value = null;
+            }
         }
-
-        return $valueset;
+        return $value_exists;
     }
 
     /**
@@ -177,16 +190,9 @@ class DropdownElement extends InputElement
      */
     protected function mainElementHTML()
     {
-        $attr = $this->attrs();
-        if (isset($attr['multiple'])) {
-            // use array notation when multiple values are allowed
-            $attr['name'] .= '[]';
-        } elseif ($this->useInput) {
-            // prefilling is only supported for non-multi fields
-            $this->prefillInput();
-        }
+        if ($this->useInput) $this->prefillInput();
 
-        $html = '<select ' . buildAttributes($attr) . '>';
+        $html = '<select ' . buildAttributes($this->attrs()) . '>';
         $html = array_reduce(
             $this->optGroups,
             function ($html, OptGroup $optGroup) {

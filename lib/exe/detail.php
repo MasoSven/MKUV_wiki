@@ -43,5 +43,4 @@ if($AUTH >= AUTH_READ){
 //start output and load template
 header('Content-Type: text/html; charset=utf-8');
 include(template('detail.php'));
-tpl_img_close();
 

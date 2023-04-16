@@ -388,12 +388,12 @@ function _tpl_metaheaders_action($data) {
             if ( empty($attr) ) { continue; }
             echo '<', $tag, ' ', buildAttributes($attr);
             if(isset($attr['_data']) || $tag == 'script') {
-                if($tag == 'script' && isset($attr['_data']))
+                if($tag == 'script' && $attr['_data'])
                     $attr['_data'] = "/*<![CDATA[*/".
                         $attr['_data'].
                         "\n/*!]]>*/";
 
-                echo '>', isset($attr['_data']) ? $attr['_data'] : '', '</', $tag, '>';
+                echo '>', $attr['_data'], '</', $tag, '>';
             } else {
                 echo '/>';
             }
@@ -1009,25 +1009,18 @@ function tpl_pagetitle($id = null, $ret = false) {
  */
 function tpl_img_getTag($tags, $alt = '', $src = null) {
     // Init Exif Reader
-    global $SRC, $imgMeta;
+    global $SRC;
 
     if(is_null($src)) $src = $SRC;
     if(is_null($src)) return $alt;
 
-    if(!isset($imgMeta) || $imgMeta === null) $imgMeta = new JpegMeta($src);
-    if($imgMeta === false) return $alt;
-    $info = cleanText($imgMeta->getField($tags));
+    static $meta = null;
+    if(is_null($meta)) $meta = new JpegMeta($src);
+    if($meta === false) return $alt;
+    $info = cleanText($meta->getField($tags));
+    $meta = null; // garbage collect and close any file handles. See #3404
     if($info == false) return $alt;
     return $info;
-}
-
-
-/**
- * Garbage collects up the open JpegMeta object.
- */
-function tpl_img_close(){
-    global $imgMeta;
-    $imgMeta = null;
 }
 
 /**
@@ -1809,7 +1802,7 @@ function tpl_classes() {
         'mode_'.$ACT,
         'tpl_'.$conf['template'],
         $INPUT->server->bool('REMOTE_USER') ? 'loggedIn' : '',
-        (isset($INFO['exists']) && $INFO['exists']) ? '' : 'notFound',
+        (isset($INFO) && $INFO['exists']) ? '' : 'notFound',
         ($ID == $conf['start']) ? 'home' : '',
     );
     return join(' ', $classes);

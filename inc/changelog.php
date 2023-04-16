@@ -221,11 +221,7 @@ function getRecents($first, $num, $ns = '', $flags = 0) {
         } else {
             $lines_position--;
             $x = $rec;
-            if ($flags & RECENTS_MEDIA_CHANGES){
-                $x['media'] = true;
-            } else {
-                $x['media'] = false;
-            }
+            if ($flags & RECENTS_MEDIA_CHANGES) $x['media'] = true;
             $rec = false;
         }
         if (--$first >= 0) continue; // skip first entries

@@ -45,13 +45,13 @@ class PageRevisions extends Revisions
      * @param int $first  skip the first n changelog lines
      * @return void
      */
-    public function show($first = -1)
+    public function show($first = 0)
     {
         global $lang, $REV;
         $changelog =& $this->changelog;
 
         // get revisions, and set correct pagination parameters (first, hasNext)
-        if ($first === null) $first = -1;
+        if ($first === null) $first = 0;
         $hasNext = false;
         $revisions = $this->getRevisions($first, $hasNext);
 
@@ -69,7 +69,6 @@ class PageRevisions extends Revisions
         $form->addTagOpen('ul');
         foreach ($revisions as $info) {
             $rev = $info['date'];
-            $info['media'] = false;
             $RevInfo = new RevisionInfo($info);
             $RevInfo->isCurrent($changelog->isCurrentRevision($rev));
 

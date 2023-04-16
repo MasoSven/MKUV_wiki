@@ -76,38 +76,16 @@ function getVersionData(){
         $version['type'] = 'Git';
         $version['date'] = 'unknown';
 
-        // First try to get date and commit hash by calling Git
-        if (function_exists('shell_exec')) {
-            $commitInfo = shell_exec("git log -1 --pretty=format:'%h %cd' --date=short");
-            if ($commitInfo) {
-                list($version['sha'], $date) = explode(' ', $commitInfo);
-                $version['date'] = hsc($date);
-                return $version;
-            }
-        }
-
-        // we cannot use git on the shell -- let's do it manually!
-        if (file_exists(DOKU_INC . '.git/HEAD')) {
+        if ($date = shell_exec("git log -1 --pretty=format:'%cd' --date=short")) {
+            $version['date'] = hsc($date);
+        } else if (file_exists(DOKU_INC . '.git/HEAD')) {
+            // we cannot use git on the shell -- let's do it manually!
             $headCommit = trim(file_get_contents(DOKU_INC . '.git/HEAD'));
             if (strpos($headCommit, 'ref: ') === 0) {
                 // it is something like `ref: refs/heads/master`
-                $headCommit = substr($headCommit, 5);
-                $pathToHead = DOKU_INC . '.git/' . $headCommit;
-                if (file_exists($pathToHead)) {
-                    $headCommit = trim(file_get_contents($pathToHead));
-                } else {
-                    $packedRefs = file_get_contents(DOKU_INC . '.git/packed-refs');
-                    if (!preg_match("~([[:xdigit:]]+) $headCommit~", $packedRefs, $matches)) {
-                        # ref not found in pack file
-                        return $version;
-                    }
-                    $headCommit = $matches[1];
-                }
+                $pathToHead = substr($headCommit, 5);
+                $headCommit = trim(file_get_contents(DOKU_INC . '.git/' . $pathToHead));
             }
-            // At this point $headCommit is a SHA
-            $version['sha'] = $headCommit;
-
-            // Get commit date from Git object
             $subDir = substr($headCommit, 0, 2);
             $fileName = substr($headCommit, 2);
             $gitCommitObject = DOKU_INC . ".git/objects/$subDir/$fileName";
@@ -137,8 +115,7 @@ function getVersionData(){
  */
 function getVersion(){
     $version = getVersionData();
-    $sha = !empty($version['sha']) ? ' (' . $version['sha'] . ')' : '';
-    return $version['type'] . ' ' . $version['date'] . $sha;
+    return $version['type'].' '.$version['date'];
 }
 
 /**

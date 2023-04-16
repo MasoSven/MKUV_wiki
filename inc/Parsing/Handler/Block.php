@@ -20,6 +20,7 @@ class Block
         'table_open','tablerow_open','tablecell_open','tableheader_open','tablethead_open',
         'quote_open',
         'code','file','hr','preformatted','rss',
+        'htmlblock','phpblock',
         'footnote_open',
     );
 
@@ -29,6 +30,7 @@ class Block
         'table_close','tablerow_close','tablecell_close','tableheader_close','tablethead_close',
         'quote_close',
         'code','file','hr','preformatted','rss',
+        'htmlblock','phpblock',
         'footnote_close',
     );
 

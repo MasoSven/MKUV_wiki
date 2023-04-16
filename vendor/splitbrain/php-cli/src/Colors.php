@@ -107,9 +107,9 @@ class Colors
      */
     public function ptln($line, $color, $channel = STDOUT)
     {
-        $this->set($color, $channel);
+        $this->set($color);
         fwrite($channel, rtrim($line) . "\n");
-        $this->reset($channel);
+        $this->reset();
     }
 
     /**
