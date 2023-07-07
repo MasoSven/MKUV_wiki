@@ -11,11 +11,10 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-04-16T05:57:03+00:00</dc:date>
+       <dc:date>2023-06-30T17:16:09+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1681599704&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=weapons2&amp;rev=1680498747&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1682472811&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_igoddzadd5.png&amp;ns=&amp;rev=1674092090&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=95dyamxyed.png&amp;ns=&amp;rev=1674014045&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=59gbndlfri.png&amp;ns=&amp;rev=1674005403&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -34,6 +33,7 @@
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_89un9eoomd.png&amp;ns=&amp;rev=1673826385&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jbailmws74.png&amp;ns=&amp;rev=1673825882&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_dz2zlerldc.png&amp;ns=&amp;rev=1673824922&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_epsyxdru3e.png&amp;ns=&amp;rev=1673819692&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,20 +42,12 @@
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1681599704&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1682472811&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-04-15T23:01:44+00:00</dc:date>
-        <dc:creator>thread (thread@undisclosed.example.com)</dc:creator>
+        <dc:date>2023-04-26T01:33:31+00:00</dc:date>
+        <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>basics:weapons2 - [Table] </title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1681599704&amp;do=diff</link>
-        <description></description>
-    </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=weapons2&amp;rev=1680498747&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2023-04-03T05:12:27+00:00</dc:date>
-        <dc:creator>thread (thread@undisclosed.example.com)</dc:creator>
-        <title>weapons2 - [Table] </title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=weapons2&amp;rev=1680498747&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1682472811&amp;do=diff</link>
         <description></description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_igoddzadd5.png&amp;ns=&amp;rev=1674092090&amp;tab_details=history&amp;mediado=diff&amp;do=media">
@@ -64,7 +56,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_igoddzadd5.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_igoddzadd5.png&amp;ns=&amp;rev=1674092090&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=437&amp;h=75&amp;t=1674092090&amp;amp;tok=2d21c4&amp;amp;media=mudlet_igoddzadd5.png&quot; alt=&quot;mudlet_igoddzadd5.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=437&amp;h=75&amp;t=1681672188&amp;amp;tok=2d21c4&amp;amp;media=mudlet_igoddzadd5.png&quot; alt=&quot;mudlet_igoddzadd5.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=95dyamxyed.png&amp;ns=&amp;rev=1674014045&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -72,7 +64,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>95dyamxyed.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=95dyamxyed.png&amp;ns=&amp;rev=1674014045&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=203&amp;t=1674014045&amp;amp;tok=03c306&amp;amp;media=95dyamxyed.png&quot; alt=&quot;95dyamxyed.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=203&amp;t=1681672188&amp;amp;tok=03c306&amp;amp;media=95dyamxyed.png&quot; alt=&quot;95dyamxyed.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=59gbndlfri.png&amp;ns=&amp;rev=1674005403&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -80,7 +72,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>59gbndlfri.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=59gbndlfri.png&amp;ns=&amp;rev=1674005403&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=261&amp;t=1674005403&amp;amp;tok=881772&amp;amp;media=59gbndlfri.png&quot; alt=&quot;59gbndlfri.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=261&amp;t=1681672188&amp;amp;tok=881772&amp;amp;media=59gbndlfri.png&quot; alt=&quot;59gbndlfri.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_cikszipgjq.png&amp;ns=&amp;rev=1673898647&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -88,7 +80,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_cikszipgjq.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_cikszipgjq.png&amp;ns=&amp;rev=1673898647&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=387&amp;h=298&amp;t=1673898647&amp;amp;tok=75b47f&amp;amp;media=mudlet_cikszipgjq.png&quot; alt=&quot;mudlet_cikszipgjq.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=387&amp;h=298&amp;t=1681672188&amp;amp;tok=75b47f&amp;amp;media=mudlet_cikszipgjq.png&quot; alt=&quot;mudlet_cikszipgjq.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_6bqs4jpd3x.png&amp;ns=&amp;rev=1673898590&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -96,7 +88,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_6bqs4jpd3x.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_6bqs4jpd3x.png&amp;ns=&amp;rev=1673898590&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=230&amp;t=1673898590&amp;amp;tok=117482&amp;amp;media=mudlet_6bqs4jpd3x.png&quot; alt=&quot;mudlet_6bqs4jpd3x.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=230&amp;t=1681672188&amp;amp;tok=117482&amp;amp;media=mudlet_6bqs4jpd3x.png&quot; alt=&quot;mudlet_6bqs4jpd3x.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_qxee1heqmx.png&amp;ns=&amp;rev=1673843535&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -104,7 +96,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_qxee1heqmx.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_qxee1heqmx.png&amp;ns=&amp;rev=1673843535&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=299&amp;h=63&amp;t=1673843535&amp;amp;tok=1dcc48&amp;amp;media=mudlet_qxee1heqmx.png&quot; alt=&quot;mudlet_qxee1heqmx.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=299&amp;h=63&amp;t=1681672188&amp;amp;tok=1dcc48&amp;amp;media=mudlet_qxee1heqmx.png&quot; alt=&quot;mudlet_qxee1heqmx.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_gzymxy4exm.png&amp;ns=&amp;rev=1673841256&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -112,7 +104,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_gzymxy4exm.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_gzymxy4exm.png&amp;ns=&amp;rev=1673841256&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=47&amp;t=1673841256&amp;amp;tok=63ed6a&amp;amp;media=mudlet_gzymxy4exm.png&quot; alt=&quot;mudlet_gzymxy4exm.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=47&amp;t=1681672188&amp;amp;tok=63ed6a&amp;amp;media=mudlet_gzymxy4exm.png&quot; alt=&quot;mudlet_gzymxy4exm.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_nl8m6ya46o.png&amp;ns=&amp;rev=1673840376&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -120,7 +112,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_nl8m6ya46o.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_nl8m6ya46o.png&amp;ns=&amp;rev=1673840376&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=303&amp;h=125&amp;t=1673840376&amp;amp;tok=7c95a1&amp;amp;media=mudlet_nl8m6ya46o.png&quot; alt=&quot;mudlet_nl8m6ya46o.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=303&amp;h=125&amp;t=1681672188&amp;amp;tok=7c95a1&amp;amp;media=mudlet_nl8m6ya46o.png&quot; alt=&quot;mudlet_nl8m6ya46o.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_7loyy7chwo.png&amp;ns=&amp;rev=1673839843&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -128,7 +120,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_7loyy7chwo.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_7loyy7chwo.png&amp;ns=&amp;rev=1673839843&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=107&amp;t=1673839843&amp;amp;tok=7cf5bc&amp;amp;media=mudlet_7loyy7chwo.png&quot; alt=&quot;mudlet_7loyy7chwo.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=107&amp;t=1681672188&amp;amp;tok=7cf5bc&amp;amp;media=mudlet_7loyy7chwo.png&quot; alt=&quot;mudlet_7loyy7chwo.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_viedwth4mk.png&amp;ns=&amp;rev=1673839769&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -136,7 +128,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_viedwth4mk.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_viedwth4mk.png&amp;ns=&amp;rev=1673839769&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=107&amp;t=1673839769&amp;amp;tok=def6b3&amp;amp;media=mudlet_viedwth4mk.png&quot; alt=&quot;mudlet_viedwth4mk.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=107&amp;t=1681672188&amp;amp;tok=def6b3&amp;amp;media=mudlet_viedwth4mk.png&quot; alt=&quot;mudlet_viedwth4mk.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_9puw6ilohx.png&amp;ns=&amp;rev=1673836883&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -144,7 +136,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_9puw6ilohx.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_9puw6ilohx.png&amp;ns=&amp;rev=1673836883&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=72&amp;t=1673836883&amp;amp;tok=01e041&amp;amp;media=mudlet_9puw6ilohx.png&quot; alt=&quot;mudlet_9puw6ilohx.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=72&amp;t=1681672188&amp;amp;tok=01e041&amp;amp;media=mudlet_9puw6ilohx.png&quot; alt=&quot;mudlet_9puw6ilohx.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_xptrgqo3eu.png&amp;ns=&amp;rev=1673834661&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -152,7 +144,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_xptrgqo3eu.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_xptrgqo3eu.png&amp;ns=&amp;rev=1673834661&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=211&amp;t=1673834661&amp;amp;tok=83afb5&amp;amp;media=mudlet_xptrgqo3eu.png&quot; alt=&quot;mudlet_xptrgqo3eu.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=211&amp;t=1681672188&amp;amp;tok=83afb5&amp;amp;media=mudlet_xptrgqo3eu.png&quot; alt=&quot;mudlet_xptrgqo3eu.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_zbyex7xfmr.png&amp;ns=&amp;rev=1673833106&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -160,7 +152,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_zbyex7xfmr.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_zbyex7xfmr.png&amp;ns=&amp;rev=1673833106&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=152&amp;t=1673833106&amp;amp;tok=435a83&amp;amp;media=mudlet_zbyex7xfmr.png&quot; alt=&quot;mudlet_zbyex7xfmr.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=152&amp;t=1681672188&amp;amp;tok=435a83&amp;amp;media=mudlet_zbyex7xfmr.png&quot; alt=&quot;mudlet_zbyex7xfmr.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jup0rg0vqu.png&amp;ns=&amp;rev=1673827582&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -168,7 +160,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_jup0rg0vqu.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jup0rg0vqu.png&amp;ns=&amp;rev=1673827582&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=120&amp;t=1673827582&amp;amp;tok=5e238c&amp;amp;media=mudlet_jup0rg0vqu.png&quot; alt=&quot;mudlet_jup0rg0vqu.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=120&amp;t=1681672188&amp;amp;tok=5e238c&amp;amp;media=mudlet_jup0rg0vqu.png&quot; alt=&quot;mudlet_jup0rg0vqu.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_bfk9evmheh.png&amp;ns=&amp;rev=1673826973&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -176,7 +168,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_bfk9evmheh.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_bfk9evmheh.png&amp;ns=&amp;rev=1673826973&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=85&amp;t=1673826973&amp;amp;tok=e37aff&amp;amp;media=mudlet_bfk9evmheh.png&quot; alt=&quot;mudlet_bfk9evmheh.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=85&amp;t=1681672188&amp;amp;tok=e37aff&amp;amp;media=mudlet_bfk9evmheh.png&quot; alt=&quot;mudlet_bfk9evmheh.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_89un9eoomd.png&amp;ns=&amp;rev=1673826385&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -184,7 +176,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_89un9eoomd.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_89un9eoomd.png&amp;ns=&amp;rev=1673826385&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=218&amp;t=1673826385&amp;amp;tok=291073&amp;amp;media=mudlet_89un9eoomd.png&quot; alt=&quot;mudlet_89un9eoomd.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=218&amp;t=1681672188&amp;amp;tok=291073&amp;amp;media=mudlet_89un9eoomd.png&quot; alt=&quot;mudlet_89un9eoomd.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jbailmws74.png&amp;ns=&amp;rev=1673825882&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -192,7 +184,7 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_jbailmws74.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_jbailmws74.png&amp;ns=&amp;rev=1673825882&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=499&amp;h=109&amp;t=1673825882&amp;amp;tok=05a52b&amp;amp;media=mudlet_jbailmws74.png&quot; alt=&quot;mudlet_jbailmws74.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=499&amp;h=109&amp;t=1681672188&amp;amp;tok=05a52b&amp;amp;media=mudlet_jbailmws74.png&quot; alt=&quot;mudlet_jbailmws74.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_dz2zlerldc.png&amp;ns=&amp;rev=1673824922&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -200,6 +192,14 @@
         <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
         <title>mudlet_dz2zlerldc.png - created</title>
         <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_dz2zlerldc.png&amp;ns=&amp;rev=1673824922&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=141&amp;t=1673824922&amp;amp;tok=ee27c2&amp;amp;media=mudlet_dz2zlerldc.png&quot; alt=&quot;mudlet_dz2zlerldc.png&quot; /&gt;</description>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=500&amp;h=141&amp;t=1681672188&amp;amp;tok=ee27c2&amp;amp;media=mudlet_dz2zlerldc.png&quot; alt=&quot;mudlet_dz2zlerldc.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_epsyxdru3e.png&amp;ns=&amp;rev=1673819692&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-01-15T21:54:52+00:00</dc:date>
+        <dc:creator>nyll (nyll@undisclosed.example.com)</dc:creator>
+        <title>mudlet_epsyxdru3e.png - created</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?image=mudlet_epsyxdru3e.png&amp;ns=&amp;rev=1673819692&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?w=471&amp;h=155&amp;t=1681672188&amp;amp;tok=41b598&amp;amp;media=mudlet_epsyxdru3e.png&quot; alt=&quot;mudlet_epsyxdru3e.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

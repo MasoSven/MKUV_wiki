@@ -11,14 +11,14 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-04-16T05:38:56+00:00</dc:date>
+       <dc:date>2023-06-30T17:21:05+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1672862807&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1672795551&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1681672188&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -27,12 +27,12 @@
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1672862807&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-04T20:06:47+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>art</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1672862807&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1681672188&amp;do=diff</link>
         <description>Art by our Player-base
 
 Charlatan
@@ -55,37 +55,37 @@ Avery
 
 Local Orphanage Punks Bully Christmas Cake</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-19T01:55:08+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>quickstart_guide</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1674093308&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1681672188&amp;do=diff</link>
         <description>Quickstart Guide
 
-MKUV IS MOO. Like any online game, you don't just download and play it per se, you have to connect to it using a client program. 
+MKUV IS MOO. Like any online game, you don&#039;t just download and play it per se, you have to connect to it using a client program. 
 
 What client program?
 
-Depends what OS you're running.
+Depends what OS you&#039;re running.
 
 Windows
 
 Mudlet - Easy to set up, easy to use. Works on most things.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1672795551&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-04T01:25:51+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>sidebar</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1672795551&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1681672188&amp;do=diff</link>
         <description>ipiss.rocks
 
 7155
 
 ----------
 
-what's new
+what&#039;s new
 
 Quickstart Guide
 
@@ -101,31 +101,31 @@ syntax
 
 PlayGround</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-02-26T12:44:17+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1677415457&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1681672188&amp;do=diff</link>
         <description>Main Page
 
 [{{ :basics:mk.png?nolink&amp;400 |]
 MKULTRAVIOLENCE (MKUV) is a post-apocalyptic MOO where the value of life is at an all time low. Undergo horrible mutations, do a ridiculous amount of drugs, and fight with your cock.You must be at least 18 years of age or older to play MKUV.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-15T19:22:17+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>what_s_new</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1673810537&amp;do=diff</link>
-        <description>What's new?
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1681672188&amp;do=diff</link>
+        <description>What&#039;s new?
 
 Jump to navigation
 Jump to search
 
-[chatnet] Retard says, So what's new?
+[chatnet] Retard says, So what&#039;s new?
 
-Glad you asked, retard. Let's give you a rundown. 
+Glad you asked, retard. Let&#039;s give you a rundown. 
 
 New Content
 

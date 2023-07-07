@@ -11,17 +11,17 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-04-16T05:57:03+00:00</dc:date>
+       <dc:date>2023-06-09T05:06:09+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1674938880&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1673996945&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:implants&amp;rev=1672883189&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678239008&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1673998301&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1679883187&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1681599704&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:implants&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1682472811&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -30,34 +30,34 @@
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1674938880&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-28T20:48:00+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:armor</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1674938880&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:armor&amp;rev=1681672188&amp;do=diff</link>
         <description>Armor
 
-Here is a list of the many armors included within the game. It is still a WIP, given that there are still many unrecorded items. A lot of this data comes from Hellmoo's armor archive, so some armors may be different compared to what is shown.</description>
+Here is a list of the many armors included within the game. It is still a WIP, given that there are still many unrecorded items. A lot of this data comes from Hellmoo&#039;s armor archive, so some armors may be different compared to what is shown.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1673996945&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-17T23:09:05+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:drugs</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1673996945&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:drugs&amp;rev=1681672188&amp;do=diff</link>
         <description>Drugs
 
 The high wore away, the chromed skeleton corroding hourly, flesh growing solid, the drug-flesh replaced with the meat of his life. He couldn’t think. He liked that very much, to be conscious and unable to think.
 
-Drugs in MKUV are much like potions and poisons in other games: Substances which alter your character's stats or state of being in some way. Some are common, some are rare, some are dangerous, some are quite benign, some are useful, and some are just plain dumb, but they're all w…</description>
+Drugs in MKUV are much like potions and poisons in other games: Substances which alter your character&#039;s stats or state of being in some way. Some are common, some are rare, some are dangerous, some are quite benign, some are useful, and some are just plain dumb, but they&#039;re all w…</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:implants&amp;rev=1672883189&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:implants&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-05T01:46:29+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:implants</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:implants&amp;rev=1672883189&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:implants&amp;rev=1681672188&amp;do=diff</link>
         <description>Implants
 
 Cybernetic implants can be installed into your body, with various effects:
@@ -65,50 +65,50 @@ Cybernetic implants can be installed into your body, with various effects:
 	*  Stat implants will give you a specific boost to a stat at the cost of multiplying incoming stress by a certain amount.
 	*  Utility implants typically have functions other than boosting your stats and do not affect stress gain as much.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678239008&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-03-08T01:30:08+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:mutations</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1678239008&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:mutations&amp;rev=1681672188&amp;do=diff</link>
         <description>Mutations
 
-Mutations offer you a means of rapid character development, as well as access to active abilities. Every few thousand xp, you're offered an additional mutation slot, which you may fill with a corresponding mutation. Their locations are documented in Injection Junction in Freedom City (marked IJ on your map).</description>
+Mutations offer you a means of rapid character development, as well as access to active abilities. Every few thousand xp, you&#039;re offered an additional mutation slot, which you may fill with a corresponding mutation. Their locations are documented in Injection Junction in Freedom City (marked IJ on your map).</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-17T23:30:06+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:skills</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1673998206&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:skills&amp;rev=1681672188&amp;do=diff</link>
         <description>Skills
 
 Skills (including stats) are what determines what your character is capable of doing alone.
 
-If you type score (or sc as a shortcut) you'll bring up your character's score sheet which includes your stats and skills, among other things. Typically skills with very low totals do not show up in your score sheet.</description>
+If you type score (or sc as a shortcut) you&#039;ll bring up your character&#039;s score sheet which includes your stats and skills, among other things. Typically skills with very low totals do not show up in your score sheet.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1673998301&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-17T23:31:41+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:stats</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1673998301&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:stats&amp;rev=1681672188&amp;do=diff</link>
         <description>Stats
 
-This page covers the 6 key stats that determine your character's skills, and the bars that show up in your status window.
+This page covers the 6 key stats that determine your character&#039;s skills, and the bars that show up in your status window.
 
-Typing ss will bring up the first half of your character's score sheet where your 6 key stats are displayed.
+Typing ss will bring up the first half of your character&#039;s score sheet where your 6 key stats are displayed.
 
 
       brawn [12.00 /18]        cool [10.00 /13]    reflexes [18.00 /26] 
      brains [ 8.00 / 7]      senses [18.00 /23]   endurance [ 8.00 / 5]</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1679883187&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-03-27T02:13:07+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:weapons</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1679883187&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons&amp;rev=1681672188&amp;do=diff</link>
         <description>Weapons
 
 Universal Weapon Data
@@ -118,12 +118,12 @@ Damage Types
 Below is a listing of damage types in MKUV. Taking damage of any type has a chance to damage armor, stun, inflict shock, cause brain damage on head hits or even KO on head/face/groin hits.
 TypeAssociated weaponsNotesBeatBlunt weapons, waster shells, buckshot shells.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1681599704&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1682472811&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-04-15T23:01:44+00:00</dc:date>
+        <dc:date>2023-04-26T01:33:31+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>basics:weapons2</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1681599704&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1682472811&amp;do=diff</link>
         <description>Weapons
 
 Firearms

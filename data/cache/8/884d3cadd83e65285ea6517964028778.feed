@@ -11,10 +11,10 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-02-26T09:32:44+00:00</dc:date>
+       <dc:date>2023-04-25T17:17:56+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1673848781&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1681672188&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -23,15 +23,15 @@
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1673848781&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1681672188&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-01-16T05:59:41+00:00</dc:date>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>tools:splitscreen</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1673848781&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1681672188&amp;do=diff</link>
         <description>Chat Redirector
 
-hello I'm Jarvak and this is my youtube totorial for making a chat redirector in mudlet for mudlet only. It will look good, like this but with different fonts and probably not with shitty linux font rendering
+hello I&#039;m Jarvak and this is my youtube totorial for making a chat redirector in mudlet for mudlet only. It will look good, like this but with different fonts and probably not with shitty linux font rendering
 
 
 step one download this(not a virus)</description>
