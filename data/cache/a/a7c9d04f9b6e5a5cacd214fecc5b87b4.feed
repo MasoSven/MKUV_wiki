@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-06-30T17:16:09+00:00</dc:date>
+       <dc:date>2023-07-11T04:06:50+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=basics:weapons2&amp;rev=1682472811&amp;do=diff"/>
