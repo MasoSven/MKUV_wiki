@@ -11,6 +11,14 @@ class helper_plugin_wrap extends DokuWiki_Plugin {
                                      'wrap_info', 'wrap_important', 'wrap_alert', 'wrap_tip', 'wrap_help', 'wrap_todo',
                                      'wrap_download', 'wrap_hi', 'wrap_spoiler');
     static protected $paragraphs = array ('wrap_leftalign', 'wrap_rightalign', 'wrap_centeralign', 'wrap_justify');
+
+	/* list of languages which normally use RTL scripts */
+	static protected $rtllangs = array('ar','dv','fa','ha','he','ks','ku','ps','ur','yi','arc');
+	/* list of right-to-left scripts (may override the language defaults to rtl) */
+	static protected $rtlscripts = array('arab','thaa','hebr','deva','shrd');
+	/* selection of left-to-right scripts (may override the language defaults to ltr) */
+	static protected $ltrscripts = array('latn','cyrl','grek','hebr','cyrs','armn');
+
     static $box_left_pos = 0;
     static $box_right_pos = 0;
     static $box_first = true;
@@ -84,7 +92,7 @@ class helper_plugin_wrap extends DokuWiki_Plugin {
                 if ($restrictionType xor $classIsInList) continue;
             }
             // prefix adjustment of class name
-            $prefix = (preg_match($noPrefix, $token)) ? '' : 'wrap_';
+            $prefix = (!empty($noPrefix) && preg_match($noPrefix, $token)) ? '' : 'wrap_';
             $attr['class'] = (isset($attr['class']) ? $attr['class'].' ' : '').$prefix.$token;
         }
         if ($this->getConf('darkTpl')) {
@@ -94,14 +102,20 @@ class helper_plugin_wrap extends DokuWiki_Plugin {
             $attr['class'] = (isset($attr['class']) ? $attr['class'].' ' : '').'wrap__emuhead';
         }
 
-        //get dir
-        if($attr['lang']) {
-            $lang2dirFile = dirname(__FILE__).'/conf/lang2dir.conf';
-            if (@file_exists($lang2dirFile)) {
-                $lang2dir = confToHash($lang2dirFile);
-                $attr['dir'] = strtr($attr['lang'],$lang2dir);
-            }
-        }
+        /* improved RTL detection to make sure it covers more cases: */
+		if($attr['lang'] && $attr['lang'] !== '') {
+
+			// turn the language code into an array of components:
+			$arr = explode('-', $attr['lang']);
+			
+			// is the language iso code (first field) in the list of RTL languages?
+			$rtl = in_array($arr[0], self::$rtllangs);
+
+			// is there a Script specified somewhere which overrides the text direction?
+			$rtl = ($rtl xor (bool) array_intersect( $rtl ? self::$ltrscripts : self::$rtlscripts, $arr));
+			
+			$attr['dir'] = ( $rtl ? 'rtl' : 'ltr' );
+		}
 
         return $attr;
     }
@@ -395,7 +409,7 @@ class helper_plugin_wrap extends DokuWiki_Plugin {
             if ( $is_indent === true ) {
                 // FIXME: Has to be adjusted if test direction will be supported.
                 // See all.css
-                $properties ['margin-left'] = $properties ['padding-left'];
+                $properties ['margin-left'] = $properties ['padding-left'] ?? null;
                 $properties ['padding-left'] = 0;
                 $name .= 'Indent';
             }
@@ -463,10 +477,10 @@ class helper_plugin_wrap extends DokuWiki_Plugin {
         // Frames/Textboxes still have some issues with formatting (at least in LibreOffice)
         // So as a workaround we implement columns as a table.
         // This is why we now use the margin of the div as the padding for the ODT table.
-        $properties ['padding-left'] = $properties ['margin-left'];
-        $properties ['padding-right'] = $properties ['margin-right'];
-        $properties ['padding-top'] = $properties ['margin-top'];
-        $properties ['padding-bottom'] = $properties ['margin-bottom'];
+        $properties ['padding-left'] = $properties ['margin-left'] ?? null;
+        $properties ['padding-right'] = $properties ['margin-right'] ?? null;
+        $properties ['padding-top'] = $properties ['margin-top'] ?? null;
+        $properties ['padding-bottom'] = $properties ['margin-bottom'] ?? null;
         $properties ['margin-left'] = null;
         $properties ['margin-right'] = null;
         $properties ['margin-top'] = null;
@@ -653,7 +667,7 @@ class helper_plugin_wrap extends DokuWiki_Plugin {
         }
 
         $background_color = $css_properties ['background-color'];
-        $image = $css_properties ['background-image'];
+        $image = $css_properties ['background-image'] ?? null;
         $margin_top = $css_properties ['margin-top'];
         $margin_right = $css_properties ['margin-right'];
         $margin_bottom = $css_properties ['margin-bottom'];
@@ -766,6 +780,8 @@ class helper_plugin_wrap extends DokuWiki_Plugin {
         $renderer->tablerow_close();
         $renderer->_odtTableClose();
         $renderer->_odtCloseTextBox ();
+        $renderer->p_open();
+        $renderer->p_close();
 
         self::$table_entr -= 1;
     }

@@ -12,9 +12,6 @@
 // must be run within Dokuwiki
 if ( !defined( 'DOKU_INC' ) )
     die();
-if ( !defined( 'DOKU_PLUGIN' ) )
-    define( 'DOKU_PLUGIN', DOKU_INC.'lib/plugins/' );
-require_once(DOKU_PLUGIN.'syntax.php');
 //
 class syntax_plugin_sortablejs extends DokuWiki_Syntax_Plugin {
 
@@ -104,10 +101,15 @@ class syntax_plugin_sortablejs extends DokuWiki_Syntax_Plugin {
     }
 
     function __validateOptions( $opts ) {
-        $oa = explode( " ", $opts );
+        if ( empty( $opts ) ) {
+        	return "";
+        }
         $ret = "";
+        $oa = explode( " ", $opts );
         foreach( $oa as $opt ) {
-            list($c, $v) = explode( "=", $opt );
+            $explodedOption = explode( "=", $opt );
+            $c = $explodedOption[0];
+            $v = $explodedOption[1] ?? null;
             if ( $c == "sumrow" ) {
                 $c = $v;
                 $v = "sumrow";

@@ -2,6 +2,15 @@
 {{ :logo.png?nolink&400 |{{ :basics:mk.png?nolink&400 |}}
 
 ;#;
+<WRAP center round important 60%>
+Important:
+  * MKUV is currently in museum mode
+  * [[museum|"i want to play"]] or;and [[roadmap|"roadmap"]]
+</WRAP>
+
+;#;
+
+;#;
 MKULTRAVIOLENCE (MKUV) is a post-apocalyptic MOO where the value of life is at an all time low. Undergo horrible mutations, do a ridiculous amount of drugs, and fight with your cock.
 ;#;
 
@@ -26,7 +35,7 @@ Input the following info into a [[quickstart_guide|MUD client]] of your choice t
 ;#;
 
 <WRAP group>
-<WRAP column 24%>
+<WRAP column 23%>
 ‎
 </WRAP>
 <WRAP 65% column>

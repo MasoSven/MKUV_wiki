@@ -1,0 +1,267 @@
+
+<h1 class="sectionedit1" id="skills">Skills</h1>
+<div class="level1">
+
+<p>
+Skills (including <a href="/dokuwiki/doku.php?id=basics:stats" class="wikilink1" title="basics:stats" data-wiki-id="basics:stats">stats</a>) are what determines what your character is capable of doing alone.
+</p>
+
+<p>
+If you type <code>score</code> (or <code>sc</code> as a shortcut) you&#039;ll bring up your character&#039;s score sheet which includes your stats and skills, among other things. Typically skills with very low totals do not show up in your score sheet.
+</p>
+
+<p>
+<code>ss</code> will show the first half of this alone: just your stats, current implants and mutations, and total and spendable XP and IP.
+</p>
+
+<p>
+<code>sk</code> will show the second half alone: just your skills. If you are interested in one particular skill only, you can also type <code>sk &lt;skill&gt;</code> or <code>sc &lt;skill&gt;</code> to check your total in that particular skill.
+</p>
+
+<p>
+For example: <code>sk fuck</code> would be presented as thus:
+</p>
+<pre class="code">Skill      Raw    +   +   Total  Depends  Improve
+fuck        6.50  +2  +6   [13]  End,Sen   1120xp  A pretty good fuck.</pre>
+<ul>
+<li class="level1 node"><div class="li"> The first number (6.50) is your raw skill level; this reflects how much of the skill your character has learned, either through jobs or learning.</div>
+<ul>
+<li class="level2"><div class="li"> Skill raws start at 0.00 and generally max out at 15.00 via learning.</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> The next two categories (+2 and +6) are modifiers; the +2 column shows temporary bonuses or penalties from buffs or debuffs, while the +6 column shows permanent bonuses or penalties from mutations.</div>
+</li>
+<li class="level1"><div class="li"> The number in square brackets is your total skill, which is the practical skill level used for determining stuff in-game, calculated using your stats, skill raw, and modifiers.</div>
+</li>
+<li class="level1"><div class="li"> The Depends column shows the stats which govern the skill.</div>
+</li>
+<li class="level1"><div class="li"> The Improve column shows how much XP it will cost to learn the next raw level of the skill from a teacher.</div>
+</li>
+<li class="level1"><div class="li"> The final column is flavor text. If your skill is very high, this will tell you your place in the world rankings with that skill, from fifth best in the world to world champ.</div>
+</li>
+</ul>
+
+<p>
+There is a pref to control your skills readout: <code>@prefs shortskills is 1</code> will prevent <code>sc</code> or <code>sk</code> from showing very low skill totals, which helps keep your screen from being clogged with very low skills.
+</p>
+
+<p>
+All skills are based on stats to the six base stats to some extent: Brains, Brawn, Reflexes, Endurance, Senses and Cool, so higher stats goes hand-in-hand with higher skills based on those stats. Swim, for instance, is based on Endurance, so any character with great End will also have good Swim.
+</p>
+
+<p>
+Skills can also be influenced by buffs, debuffs, Mutations, and other modifiers. Some skills lean more heavily on stats, while others can be propped up by modifiers. For example, the focus skill has many buffing options through drugs and mutations, so it&#039;s reasonable for a character with relatively unimpressive endurance and senses to reach 30 focus, even though those are the two stats that focus is based on.
+</p>
+
+<p>
+There&#039;s no way to directly check your skill modifiers, however, you <em>can</em> check your <a href="/dokuwiki/doku.php?id=basics:stats" class="wikilink1" title="basics:stats" data-wiki-id="basics:stats">stat</a> modifiers with the <code>@buffs</code> command.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Skills&quot;,&quot;hid&quot;:&quot;skills&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-2920&quot;} -->
+<h2 class="sectionedit2" id="raising_skills">Raising Skills</h2>
+<div class="level2">
+
+<p>
+All skills are based your skill raw plus the average of whichever <a href="/dokuwiki/doku.php?id=basics:stats" class="wikilink1" title="basics:stats" data-wiki-id="basics:stats">stats</a> the skill depends on, so higher stats goes hand-in-hand with higher skills based on those stats. Blades, for instance, is based on Reflexes and Cool, so a character with 4 raw blades, modified by 10 Cool and 12 Reflexes (averages to +11) will have 15 total blades.
+</p>
+
+<p>
+Skills can also be directly influenced by buffs, debuffs, Mutations, and other modifiers. Some skills lean more heavily on stats, while others can be propped up by modifiers. For example, the focus skill has many buffing options through drugs and mutations, so it&#039;s reasonable for a character with relatively unimpressive endurance and senses to reach 30 focus, even though those are the two stats that focus is based on.
+</p>
+
+<p>
+Skills at 0 raw will have a hidden penalty and will cost more xp to learn than the next couple of raws. Try to learn at least 1 raw in skills you&#039;ll be using frequently.
+</p>
+
+<p>
+All skills must be learned from a professional NPC (for a price) or a skilled player who is willing to teach. Skill IPs gained from doing jobs can only take a character so far; to advance into real mastery of a skill, spending XP on learning skill raw is a mandatory investment. XP can&#039;t be spent on anything except for skill raw, so there&#039;s no point in hoarding it unless you&#039;re saving for a very expensive skill.
+</p>
+
+<p>
+To simplify raising skills there is a Teach Finder machine located in every bar (Any Port in Freedom City is one). Simply <code>say find &lt;skill&gt;</code> near a Teach Finder and it will list every NPC teacher for that skill and their location.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Raising Skills&quot;,&quot;hid&quot;:&quot;raising_skills&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:2,&quot;range&quot;:&quot;2921-4543&quot;} -->
+<h2 class="sectionedit3" id="using_skills">Using Skills</h2>
+<div class="level2">
+
+<p>
+Much of the actions you can take in MKUV depend on dice rolls, which are as random as possible. Having high skills stacks the odds of those rolls in your favor, often quite heavily.
+</p>
+
+<p>
+Some skills govern how well you can wield a specific weapon, like fists and rifles. Higher skill levels in these skills increases your character&#039;s accuracy with those weapons, and often adds damage potential as well. These skills are used automatically whenever your character attacks something while wielding the associated weapon.
+</p>
+<ul>
+<li class="level1"><div class="li"> The fists skill, for example, will increase your accuracy and damage while attacking with your bare hands.</div>
+</li>
+</ul>
+
+<p>
+Some other skills are passive, and don&#039;t usually require a special command to use, like dodge and sneak. These skills run in the background and govern how well you can do whatever that skill is supposed to enable.
+</p>
+<ul>
+<li class="level1"><div class="li"> The dodge skill, for example, will passively decrease your odds of getting hit in a fight.</div>
+</li>
+</ul>
+
+<p>
+Finally, some skills require a command be typed in order to be used, such as repair and fuck. Higher skill will grant you a higher rate of success in the action you are attempting to perform with the skill.
+</p>
+<ul>
+<li class="level1"><div class="li"> The repair skill, for example, will increase your odds of success when attempting to fix something that&#039;s damaged.</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Using Skills&quot;,&quot;hid&quot;:&quot;using_skills&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:3,&quot;range&quot;:&quot;4544-5829&quot;} -->
+<h2 class="sectionedit4" id="skill_tables">Skill Tables</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Skill Tables&quot;,&quot;hid&quot;:&quot;skill_tables&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:4,&quot;range&quot;:&quot;5830-5852&quot;} -->
+<h3 class="sectionedit5" id="weapon_skills">Weapon Skills</h3>
+<div class="level3">
+<div class="table sectionedit6"><table class="inline">
+	<tr class="row0">
+		<td class="col0 leftalign"> Skill      </td><td class="col1 leftalign"> Depends              </td><td class="col2 leftalign"> Notes                                                                                                               </td>
+	</tr>
+	<tr class="row1">
+		<td class="col0 leftalign"> Blades     </td><td class="col1 leftalign"> Reflexes, Cool       </td><td class="col2 leftalign"> How well you use blades.                                                                                            </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> Clubs      </td><td class="col1 leftalign"> Brawn, Reflexes      </td><td class="col2 leftalign"> How well you use clubs.                                                                                             </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> Firearms   </td><td class="col1 leftalign"> Cool, Reflexes       </td><td class="col2 leftalign"> How well you use firearms.                                                                                          </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> Fists      </td><td class="col1 leftalign"> Brawn, Endurance     </td><td class="col2 leftalign"> How well you use fist weapons (or no weapon at all).                                                                </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 leftalign"> Flails     </td><td class="col1 leftalign"> Brawn, Senses        </td><td class="col2 leftalign"> How well you use flails.                                                                                            </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 leftalign"> Focus      </td><td class="col1 leftalign"> Endurance, Senses    </td><td class="col2 leftalign"> Also a utility. Determines your success chance at using focus mutations and how well you use psi amps.              </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 leftalign"> Quickdraw  </td><td class="col1 leftalign"> Cool, Reflexes       </td><td class="col2 leftalign"> Also a utility. Determines whether you fumble drawing and stowing things during combat, and how well you use bows.  </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0 leftalign"> Spears     </td><td class="col1 leftalign"> Endurance, Reflexes  </td><td class="col2 leftalign"> How well you use spears.                                                                                            </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0 leftalign"> Throw      </td><td class="col1 leftalign"> Endurance, Reflexes  </td><td class="col2 leftalign"> Also a utility. Determines your chance to throw things into adjacent tiles and how well you use throwing weapons.   </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0 leftalign"> Whips      </td><td class="col1 leftalign"> Reflexes, Senses     </td><td class="col2 leftalign"> How well you use whips.                                                                                             </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:6,&quot;range&quot;:&quot;5875-7590&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Weapon Skills&quot;,&quot;hid&quot;:&quot;weapon_skills&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:5,&quot;range&quot;:&quot;5853-7591&quot;} -->
+<h3 class="sectionedit7" id="combat_utility_skills">Combat Utility Skills</h3>
+<div class="level3">
+<div class="table sectionedit8"><table class="inline">
+	<tr class="row0">
+		<td class="col0 leftalign"> Skill      </td><td class="col1 leftalign"> Depends              </td><td class="col2 leftalign"> Notes                                                                                 </td>
+	</tr>
+	<tr class="row1">
+		<td class="col0 leftalign"> Bombs      </td><td class="col1 leftalign"> Brains, Cool         </td><td class="col2 leftalign"> Disarming, breaking, and successfully using bombs without blowing yourself up.        </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> Dodge      </td><td class="col1 leftalign"> Reflexes, Senses     </td><td class="col2 leftalign"> Avoiding damage and explosions in combat.                                             </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> Torture    </td><td class="col1 leftalign"> Cool, Senses         </td><td class="col2 leftalign"> Passively increases crit chances on various weapons.                                  </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> Wrestle    </td><td class="col1 leftalign"> Reflex, Endurance    </td><td class="col2 leftalign"> Grabbing people, stripping stuff from them, and headbutting them with Hooligan.       </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table1&quot;,&quot;secid&quot;:8,&quot;range&quot;:&quot;7622-8251&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Combat Utility Skills&quot;,&quot;hid&quot;:&quot;combat_utility_skills&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:7,&quot;range&quot;:&quot;7592-8252&quot;} -->
+<h3 class="sectionedit9" id="crafting_skills">Crafting Skills</h3>
+<div class="level3">
+<div class="table sectionedit10"><table class="inline">
+	<tr class="row0">
+		<td class="col0 leftalign"> Skill      </td><td class="col1 leftalign"> Depends  </td><td class="col2 leftalign"> Notes                                                                                                                    </td>
+	</tr>
+	<tr class="row1">
+		<td class="col0 leftalign"> Chemistry  </td><td class="col1 leftalign"> Brains   </td><td class="col2 leftalign"> Used in crafting schematics that are heavy on chemicals and drugs.                                                       </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> Craft      </td><td class="col1 leftalign"> Brains   </td><td class="col2 leftalign"> The mother of crafting skills. Used for crafting and modifying items.                                                    </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> Linguist   </td><td class="col1 leftalign"> Brains   </td><td class="col2 leftalign"> Extremely niche. Used for some craft schematics, and advancing a couple quests.                                          </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> Science    </td><td class="col1 leftalign"> Brains   </td><td class="col2 leftalign"> Also a weapon skill. Used in advanced crafting, and determines how well you use scientific gadgets and science weapons.  </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table2&quot;,&quot;secid&quot;:10,&quot;range&quot;:&quot;8277-9021&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Crafting Skills&quot;,&quot;hid&quot;:&quot;crafting_skills&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:9,&quot;range&quot;:&quot;8253-9022&quot;} -->
+<h3 class="sectionedit11" id="general_utility_skills">General Utility Skills</h3>
+<div class="level3">
+<div class="table sectionedit12"><table class="inline">
+	<tr class="row0">
+		<td class="col0 leftalign"> Skill      </td><td class="col1 leftalign"> Depends              </td><td class="col2 leftalign"> Notes                                                                                                 </td>
+	</tr>
+	<tr class="row1">
+		<td class="col0 leftalign"> Appraise   </td><td class="col1 leftalign"> Brains, Senses       </td><td class="col2 leftalign"> Checking the value and power of items, clothing, weapons, and creatures.                              </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> Climb      </td><td class="col1 leftalign"> Reflexes, Endurance  </td><td class="col2 leftalign"> Climbing ropes and cliffs.                                                                            </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> Fish       </td><td class="col1 leftalign"> Cool, Endurance      </td><td class="col2 leftalign"> Also (arguably) a weapon skill. Used for catching fish and using a fishing pole as a weapon.          </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> Fuck       </td><td class="col1 leftalign"> Endurance, Senses    </td><td class="col2 leftalign"> Determines how big of a buff and stress relief you get out of sex.                                    </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 leftalign"> Hack       </td><td class="col1 leftalign"> Brains               </td><td class="col2 leftalign"> Picking advanced locks and investigating Cyberspace.                                                  </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 leftalign"> Locksmith  </td><td class="col1 leftalign"> Brains, Reflexes     </td><td class="col2 leftalign"> Also a crafting skill. Used for crafting and picking locks. Helps with hacking electronic locks too.  </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 leftalign"> Medic      </td><td class="col1 leftalign"> Brains               </td><td class="col2 leftalign"> Diagnosing and how well you use medical stuff, like a trauma kit or a defibrillator.                  </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0 leftalign"> Persuade   </td><td class="col1 leftalign"> Cool, Brains         </td><td class="col2 leftalign"> Scamming people, representing friends in court.                                                       </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0 leftalign"> Pilot      </td><td class="col1 leftalign"> Brains, Reflexes     </td><td class="col2 leftalign"> Flying, boating.                                                                                      </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0 leftalign"> Repair     </td><td class="col1 leftalign"> Brains               </td><td class="col2 leftalign"> Fixing weapons, armor, robots, and whatever else may be broken.                                       </td>
+	</tr>
+	<tr class="row11">
+		<td class="col0 leftalign"> Ride       </td><td class="col1 leftalign"> Cool, Reflexes       </td><td class="col2 leftalign"> Skating with a skateboard or driving a motorbike                                                      </td>
+	</tr>
+	<tr class="row12">
+		<td class="col0 leftalign"> Scavenge   </td><td class="col1 leftalign"> Endurance, Senses    </td><td class="col2 leftalign"> Searching places for materials, cutting things from corpses, and breaking stuff for parts.            </td>
+	</tr>
+	<tr class="row13">
+		<td class="col0 leftalign"> Sneak      </td><td class="col1 leftalign"> Cool, Senses         </td><td class="col2 leftalign"> Determines how long it takes for cameras to spot you while committing crimes.                         </td>
+	</tr>
+	<tr class="row14">
+		<td class="col0 leftalign"> Swim       </td><td class="col1 leftalign"> Endurance            </td><td class="col2 leftalign"> Swimming speed, not drowning in the ocean.                                                            </td>
+	</tr>
+	<tr class="row15">
+		<td class="col0 leftalign"> Teach      </td><td class="col1 leftalign"> Brains               </td><td class="col2 leftalign"> Teaching people skills.                                                                               </td>
+	</tr>
+	<tr class="row16">
+		<td class="col0 leftalign"> Track      </td><td class="col1 leftalign"> Senses               </td><td class="col2 leftalign"> Finding the location of players and NPCs in the same zone as you.                                     </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table3&quot;,&quot;secid&quot;:12,&quot;range&quot;:&quot;9054-11467&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;General Utility Skills&quot;,&quot;hid&quot;:&quot;general_utility_skills&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:11,&quot;range&quot;:&quot;9023-&quot;} -->

@@ -11,13 +11,13 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-05-17T20:28:07+00:00</dc:date>
+       <dc:date>2023-11-04T03:58:54+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1680625281&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:syntax&amp;rev=1680625281&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:unpoz_dokuwiki&amp;rev=1681672188&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1680625281&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -26,12 +26,12 @@
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1681672188&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1680625281&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
+        <dc:date>2023-04-04T16:21:21+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>wiki:dokuwiki</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1681672188&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:dokuwiki&amp;rev=1680625281&amp;do=diff</link>
         <description>DokuWiki
 
 wiki:dokuwiki DokuWiki is a simple to use and highly versatile Open Source wiki software that doesn&#039;t require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator&#039;s favorite. Built in</description>
@@ -56,12 +56,12 @@ DokuWiki supports some simple markup language, which tries to make the datafiles
 
 So you&#039;ve decided to contribute to this wiki but are frustrated about how it&#039;s not mediawiki. Here is a rundown of things to know to get you around this crap, hopefully you&#039;ll appreciate it&#039;s design choices.</description>
     </item>
-    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1681672188&amp;do=diff">
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1680625281&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
+        <dc:date>2023-04-04T16:21:21+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>wiki:welcome</title>
-        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1681672188&amp;do=diff</link>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=wiki:welcome&amp;rev=1680625281&amp;do=diff</link>
         <description>Welcome to your new DokuWiki
 
 Congratulations, your wiki is now up and running. Here are a few more tips to get you started.
