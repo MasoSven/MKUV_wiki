@@ -1,0 +1,48 @@
+2024-03-23 04:57:49	/dokuwiki/feed.php(235)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(235): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(305)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(305): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(235)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(235): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(305)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(305): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(235)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(235): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(305)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(305): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(235)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(235): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(305)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(305): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(235)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(235): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(305)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(305): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(235)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(235): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}
+2024-03-23 04:57:49	/dokuwiki/feed.php(305)	E_WARNING: Undefined array key "media"
+  #0 /dokuwiki/feed.php(305): dokuwiki\ErrorHandler::errorHandler()
+  #1 /dokuwiki/feed.php(96): rss_buildItems()
+  #2 {main}

@@ -1,0 +1,411 @@
+2024-01-24 00:07:58	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 00:54:17	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 00:54:23	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 00:56:24	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:14:25	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:17:42	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:30:17	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:32:04	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:47:04	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:47:34	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:52:05	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:57:28	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 01:57:29	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:02:38	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:12:23	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:12:30	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:27:26	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:27:33	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:55:23	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:55:24	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 02:55:26	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 03:29:29	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 03:29:30	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 03:34:32	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:04:41	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:04:57	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:22:27	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:24:47	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:27:29	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:36:02	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:40:34	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:43:58	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:52:52	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:57:18	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 04:57:54	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 05:14:45	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 05:22:47	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 05:28:03	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 05:52:07	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 05:52:09	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 06:05:19	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 06:17:38	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 06:31:34	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 06:31:34	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 06:41:13	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 06:55:03	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 06:59:21	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:09:41	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:12:12	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:15:18	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:18:01	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:23:15	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:42:26	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:51:42	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 07:58:17	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 08:11:23	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 08:26:40	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 09:06:32	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 09:06:47	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 09:31:20	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 09:31:22	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 10:02:46	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 10:06:23	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 10:26:42	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 10:34:51	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 11:02:50	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 11:47:46	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 12:05:07	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 12:05:07	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 12:24:37	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 12:52:36	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 13:13:27	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 13:17:37	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 13:17:44	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 13:48:59	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 13:53:22	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 13:56:10	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 14:15:22	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 14:17:24	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 14:17:26	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 14:51:51	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 15:09:22	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 15:09:26	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 15:24:26	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 15:28:10	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 16:07:35	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 16:29:52	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 16:32:14	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 16:35:15	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 16:48:15	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 16:56:59	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 16:57:02	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 17:20:36	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 17:28:10	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 17:28:23	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 17:33:02	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 17:41:41	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 17:53:12	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 17:53:15	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:06:03	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:08:50	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:11:32	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:18:09	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:24:02	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:29:37	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:48:04	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 18:57:09	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:03:44	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:05:32	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:07:19	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:07:25	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:09:08	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:16:53	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:16:56	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:20:24	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 19:42:35	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 20:12:06	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 20:16:27	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 20:16:35	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 21:08:31	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 21:11:34	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 21:22:58	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 21:38:39	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 21:46:13	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 22:38:25	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 22:38:25	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:15:43	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:15:44	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:18:31	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:18:58	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:18:59	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:33:41	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:33:50	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:33:50	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:39:47	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:39:48	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2024-01-24 23:39:48	/dokuwiki/lib/plugins/authplain/auth.php(410)	E_ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
