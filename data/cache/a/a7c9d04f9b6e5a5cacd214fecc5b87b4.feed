@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2024-01-31T11:52:29+00:00</dc:date>
+       <dc:date>2024-03-24T20:02:45+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1697919802&amp;do=diff"/>

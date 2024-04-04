@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.ipiss.rocks/dokuwiki/</link>
         <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=favicon.ico" />
-       <dc:date>2023-10-17T03:44:10+00:00</dc:date>
+       <dc:date>2024-03-09T19:25:57+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=playground:playground&amp;rev=1680625281&amp;do=diff"/>
