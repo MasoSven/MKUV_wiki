@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.ipiss.rocks/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.ipiss.rocks/dokuwiki/feed.php">
+        <title>MKULTRAVIOLENCE</title>
+        <description></description>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png" />
+       <dc:date>2024-04-05T00:45:49+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=museum&amp;rev=1697167089&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1681672188&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1697919802&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1681672188&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png">
+        <title>MKULTRAVIOLENCE</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png</url>
+    </image>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1681672188&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>art</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=art&amp;rev=1681672188&amp;do=diff</link>
+        <description>Art by our Player-base
+
+Charlatan
+
+Help Griefing
+
+VHS
+
+Avery gets owned
+
+
+
+Miller
+
+MKUV with text
+
+
+
+Avery
+
+Local Orphanage Punks Bully Christmas Cake</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=museum&amp;rev=1697167089&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-10-13T03:18:09+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>museum</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=museum&amp;rev=1697167089&amp;do=diff</link>
+        <description>If you want to play the game you&#039;ll not get a password after logging in. to resolve this do one of the following:
+
+	*  Message Keeper of the Piss(Giantloli[Geraldine]) on discord, stating your login name and email you&#039;ve registered with for verification</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1681672188&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>quickstart_guide</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=quickstart_guide&amp;rev=1681672188&amp;do=diff</link>
+        <description>Quickstart Guide
+
+MKUV IS MOO. Like any online game, you don&#039;t just download and play it per se, you have to connect to it using a client program. 
+
+What client program?
+
+Depends what OS you&#039;re running.
+
+Windows
+
+Mudlet - Easy to set up, easy to use. Works on most things.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1681672188&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>sidebar</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=sidebar&amp;rev=1681672188&amp;do=diff</link>
+        <description>ipiss.rocks
+
+7155
+
+----------
+
+what&#039;s new
+
+Quickstart Guide
+
+----------
+MKULTRAVIOLENCE index
+
+
+Tools
+
+----------
+
+syntax
+
+PlayGround</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1697919802&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-10-21T20:23:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=start&amp;rev=1697919802&amp;do=diff</link>
+        <description>Main Page
+
+[{{ :basics:mk.png?nolink&amp;400 |]
+
+Important:
+
+	*  MKUV is currently in museum mode
+	*  &quot;i want to play&quot; or;and &quot;roadmap&quot;
+MKULTRAVIOLENCE (MKUV) is a post-apocalyptic MOO where the value of life is at an all time low. Undergo horrible mutations, do a ridiculous amount of drugs, and fight with your cock.</description>
+    </item>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1681672188&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>what_s_new</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=what_s_new&amp;rev=1681672188&amp;do=diff</link>
+        <description>What&#039;s new?
+
+Jump to navigation
+Jump to search
+
+[chatnet] Retard says, So what&#039;s new?
+
+Glad you asked, retard. Let&#039;s give you a rundown. 
+
+New Content
+
+	*  Over 100 new weapons.
+	*  Over 75 new pieces of armor and bits of clothing.
+	*  Over 50 new crafting recipes to discover.</description>
+    </item>
+</rdf:RDF>

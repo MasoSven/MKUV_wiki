@@ -1,6 +1,0 @@
-2023-01-08 22:47:54	/dokuwiki/feed.php(428)	TypeError: Cannot access offset of type string on string
-  #0 /dokuwiki/feed.php(96): rss_buildItems()
-  #1 {main}
-2023-01-08 22:48:00	/dokuwiki/feed.php(428)	TypeError: Cannot access offset of type string on string
-  #0 /dokuwiki/feed.php(96): rss_buildItems()
-  #1 {main}
