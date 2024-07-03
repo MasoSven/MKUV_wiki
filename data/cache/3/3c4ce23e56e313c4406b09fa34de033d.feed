@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.ipiss.rocks/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.ipiss.rocks/dokuwiki/feed.php">
+        <title>MKULTRAVIOLENCE - playground</title>
+        <description></description>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png" />
+       <dc:date>2024-06-26T00:53:11+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=playground:playground&amp;rev=1680625281&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png">
+        <title>MKULTRAVIOLENCE</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png</url>
+    </image>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=playground:playground&amp;rev=1680625281&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-04-04T16:21:21+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>playground</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=playground:playground&amp;rev=1680625281&amp;do=diff</link>
+        <description>PlayGround</description>
+    </item>
+</rdf:RDF>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.ipiss.rocks/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.ipiss.rocks/dokuwiki/feed.php">
+        <title>MKULTRAVIOLENCE - tools</title>
+        <description></description>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <image rdf:resource="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png" />
+       <dc:date>2024-06-27T18:29:33+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1681672188&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png">
+        <title>MKULTRAVIOLENCE</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/</link>
+        <url>https://wiki.ipiss.rocks/dokuwiki/lib/exe/fetch.php?media=logo.png</url>
+    </image>
+    <item rdf:about="https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1681672188&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2023-04-16T19:09:48+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>splitscreen</title>
+        <link>https://wiki.ipiss.rocks/dokuwiki/doku.php?id=tools:splitscreen&amp;rev=1681672188&amp;do=diff</link>
+        <description>Chat Redirector
+
+hello I&#039;m Jarvak and this is my youtube totorial for making a chat redirector in mudlet for mudlet only. It will look good, like this but with different fonts and probably not with shitty linux font rendering
+
+
+step one download this(not a virus)</description>
+    </item>
+</rdf:RDF>
